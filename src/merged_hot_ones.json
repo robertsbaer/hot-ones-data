@@ -4606,6 +4606,18 @@
   },
   {
     "season": "26",
+    "episode": "SPECIAL 0x170",
+    "date": "March 14, 2025",
+    "guestDescription": "Asif Ali vs. Poorna Jagannathan vs. Saagar Shaikh",
+    "guest": [
+      "Asif Ali",
+      "Purna Jagannathan",
+      "Saagar Shaikh"
+    ],
+    "episode_type": "special"
+  },
+  {
+    "season": "26",
     "episode": "S26E09",
     "date": "March 20, 2025",
     "guest": "Selena Gomez and Benny Blanco",
