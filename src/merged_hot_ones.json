@@ -4230,5 +4230,21 @@
     "guestDescription": "Hailee Steinfeld vs. Michael B. Jordan",
     "guest": ["Hailee Steinfeld", "Michael B. Jordan"],
     "episode_type": "special"
+  },
+  {
+    "season": "26",
+    "episode": "S26E11",
+    "date": "April 3, 2025",
+    "guest": "Saquon Barkley",
+    "otherAppearances": [],
+    "episode_type": "regular"
+  },
+  {
+    "season": "26",
+    "episode": "SPECIAL 0x172",
+    "date": "April 8, 2025",
+    "guestDescription": "Kathryn Hahn vs. Seth Rogen",
+    "guest": ["Kathryn Hahn", "Seth Rogen"],
+    "episode_type": "special"
   }
 ]
