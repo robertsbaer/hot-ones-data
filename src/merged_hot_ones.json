@@ -4246,5 +4246,13 @@
     "guestDescription": "Kathryn Hahn vs. Seth Rogen",
     "guest": ["Kathryn Hahn", "Seth Rogen"],
     "episode_type": "special"
+  },
+  {
+    "season": "26",
+    "episode": "S26E12",
+    "date": "April 10, 2025",
+    "guest": "Will Forte",
+    "otherAppearances": [],
+    "episode_type": "regular"
   }
 ]
