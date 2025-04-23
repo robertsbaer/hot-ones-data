@@ -4254,5 +4254,13 @@
     "guest": "Will Forte",
     "otherAppearances": [],
     "episode_type": "regular"
+  },
+  {
+    "season": "26",
+    "episode": "SPECIAL 0x173",
+    "date": "April 15, 2025",
+    "guestDescription": "Liv Morgan vs. Dominik Mysterio",
+    "guest": ["Liv Morgan", "Dominik Mysterio"],
+    "episode_type": "special"
   }
 ]
