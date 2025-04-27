@@ -4262,5 +4262,13 @@
     "guestDescription": "Liv Morgan vs. Dominik Mysterio",
     "guest": ["Liv Morgan", "Dominik Mysterio"],
     "episode_type": "special"
+  },
+  {
+  "season": "26",
+  "episode": "SPECIAL 0x174",
+  "date": "April 22, 2025",
+  "guestDescription": "Viola Davis vs. Julius Tennon",
+  "guest": ["Viola Davis", "Julius Tennon"],
+  "episode_type": "special"
   }
 ]
