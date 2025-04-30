@@ -68,7 +68,9 @@
     "episode": "SPECIAL 0x1",
     "date": "December 3, 2015",
     "guestDescription": "Sean Evans and Chili Klaus Eat the Carolina Reaper, the World's Hottest Chili Pepper",
-    "guest": ["Chili Klaus"],
+    "guest": [
+      "Chili Klaus"
+    ],
     "episode_type": "special"
   },
   {
@@ -268,7 +270,9 @@
     "episode": "SPECIAL 0x2",
     "date": "September 7, 2016",
     "guestDescription": "Sean Evans Answers Hot Ones Questions from Fans",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -292,7 +296,9 @@
     "episode": "SPECIAL 0x3",
     "date": "September 20, 2016",
     "guestDescription": "Chili Klaus and Sean Evans Eat the World's Hottest Pepper on the Carriage Ride From Hell",
-    "guest": ["Chili Klaus"],
+    "guest": [
+      "Chili Klaus"
+    ],
     "episode_type": "special"
   },
   {
@@ -332,7 +338,9 @@
     "episode": "SPECIAL 0x4",
     "date": "October 19, 2016",
     "guestDescription": "World's Hottest Chip Challenge",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -356,7 +364,9 @@
     "episode": "SPECIAL 0x5",
     "date": "November 2, 2016",
     "guestDescription": "Hot Sauce Shopping at Heatonist",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -364,7 +374,9 @@
     "episode": "SPECIAL 0x6",
     "date": "November 5, 2016",
     "guestDescription": "Tony Hawk",
-    "guest": ["Tony Hawk"],
+    "guest": [
+      "Tony Hawk"
+    ],
     "episode_type": "special"
   },
   {
@@ -372,7 +384,9 @@
     "episode": "SPECIAL 0x7",
     "date": "November 6, 2016",
     "guestDescription": "Hot Ones LIVE Trivia with Super Fans at ComplexCon",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -388,7 +402,9 @@
     "episode": "SPECIAL 0x8",
     "date": "November 12, 2016",
     "guestDescription": "Action Bronson Eating Wings in Reverse",
-    "guest": ["Action Bronson"],
+    "guest": [
+      "Action Bronson"
+    ],
     "episode_type": "special"
   },
   {
@@ -444,7 +460,9 @@
     "episode": "SPECIAL 0x9",
     "date": "December 24, 2016",
     "guestDescription": "The Hot Ones Holiday Special",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -452,7 +470,9 @@
     "episode": "SPECIAL 0x10",
     "date": "December 29, 2016",
     "guestDescription": "Hot Ones Mailbag: Sean Evans Answers Fan Questions",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -460,7 +480,10 @@
     "episode": "SPECIAL 0x11",
     "date": "January 12, 2017",
     "guestDescription": "Rhett & Link Eat the World's Spiciest Curry with Sean Evans",
-    "guest": ["Rhett", "Link"],
+    "guest": [
+      "Rhett",
+      "Link"
+    ],
     "episode_type": "special"
   },
   {
@@ -604,7 +627,9 @@
     "episode": "SPECIAL 0x12",
     "date": "May 13, 2017",
     "guestDescription": "Neil deGrasse Tyson Drops Knowledge | Hot Ones Extras",
-    "guest": ["Neil deGrasse Tyson"],
+    "guest": [
+      "Neil deGrasse Tyson"
+    ],
     "episode_type": "special"
   },
   {
@@ -668,7 +693,9 @@
     "episode": "SPECIAL 0x13",
     "date": "July 13, 2017",
     "guestDescription": "Season Four Hot Sauce Lineup, REVEALED",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -684,7 +711,9 @@
     "episode": "SPECIAL 0x14",
     "date": "July 26, 2017",
     "guestDescription": "The Hot Ones Doughnut Is a Buffalo Wing in Pastry Form",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -708,7 +737,9 @@
     "episode": "SPECIAL 0x15",
     "date": "August 9, 2017",
     "guestDescription": "Stephen Colbert",
-    "guest": ["Stephen Colbert"],
+    "guest": [
+      "Stephen Colbert"
+    ],
     "episode_type": "special"
   },
   {
@@ -732,7 +763,9 @@
     "episode": "SPECIAL 0x16",
     "date": "August 22, 2017",
     "guestDescription": "Sean Evans",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -772,7 +805,9 @@
     "episode": "SPECIAL 0x17",
     "date": "September 19, 2017",
     "guestDescription": "Everything You Need to Know About The Last Dab, the Hottest Sauce on Hot Ones",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -812,7 +847,9 @@
     "episode": "SPECIAL 0x18",
     "date": "October 17, 2017",
     "guestDescription": "How to Eat a Chicken Wing | Hot Ones Extra",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -836,7 +873,9 @@
     "episode": "SPECIAL 0x19",
     "date": "October 31, 2017",
     "guestDescription": "How to Pair Hot Sauce with Food | Hot Ones Extra",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -900,7 +939,9 @@
     "episode": "SPECIAL 0x20",
     "date": "December 21, 2017",
     "guestDescription": "A Very Spicy Holiday Special",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -916,7 +957,9 @@
     "episode": "SPECIAL 0x21",
     "date": "January 11, 2018",
     "guestDescription": "Season Five Hot Sauce Lineup REVEALED",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -924,7 +967,9 @@
     "episode": "SPECIAL 0x22",
     "date": "January 16, 2018",
     "guestDescription": "How to Make Hot Sauce | Hot Ones Extra",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1060,7 +1105,9 @@
     "episode": "SPECIAL 0x23",
     "date": "May 10, 2018",
     "guestDescription": "Machine Gun Kelly Has a Rematch with the Wings of Death | Hot Ones Throwback",
-    "guest": ["Machine Gun Kelly"],
+    "guest": [
+      "Machine Gun Kelly"
+    ],
     "episode_type": "special"
   },
   {
@@ -1068,7 +1115,9 @@
     "episode": "SPECIAL 0x24",
     "date": "May 17, 2018",
     "guestDescription": "Sean Evans Answers Spicy Fan Questions and Shares Season 5 Highlights",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1076,7 +1125,9 @@
     "episode": "SPECIAL 0x25",
     "date": "May 31, 2018",
     "guestDescription": "Season 6 Hot Sauce Lineup, REVEALED",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1188,7 +1239,9 @@
     "episode": "SPECIAL 0x26",
     "date": "September 13, 2018",
     "guestDescription": "Sean Evans Answers Fans Questions",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1196,7 +1249,10 @@
     "episode": "SPECIAL 0x27",
     "date": "September 24, 2018",
     "guestDescription": "Kevin Hart and Tiffany Haddish Play Truth or Dab",
-    "guest": ["Kevin Hart", "Tiffany Haddish"],
+    "guest": [
+      "Kevin Hart",
+      "Tiffany Haddish"
+    ],
     "episode_type": "special"
   },
   {
@@ -1204,7 +1260,9 @@
     "episode": "SPECIAL 0x28",
     "date": "September 27, 2018",
     "guestDescription": "Sean Evans Reveals the Season 7 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1308,7 +1366,9 @@
     "episode": "SPECIAL 0x29",
     "date": "December 24, 2018",
     "guestDescription": "The Hot Ones Holiday Special",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1316,7 +1376,9 @@
     "episode": "SPECIAL 0x30",
     "date": "December 27, 2018",
     "guestDescription": "Rae Sremmurd Plays Truth or Dab",
-    "guest": ["Rae Sremmurd"],
+    "guest": [
+      "Rae Sremmurd"
+    ],
     "episode_type": "special"
   },
   {
@@ -1324,7 +1386,9 @@
     "episode": "SPECIAL 0x31",
     "date": "January 10, 2019",
     "guestDescription": "Sean's Gordon Ramsay Nightmare",
-    "guest": ["Gordon Ramsay"],
+    "guest": [
+      "Gordon Ramsay"
+    ],
     "episode_type": "special"
   },
   {
@@ -1332,7 +1396,9 @@
     "episode": "SPECIAL 0x32",
     "date": "January 17, 2019",
     "guestDescription": "Sean Evans Reveals the Season 8 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1348,7 +1414,10 @@
     "episode": "SPECIAL 0x33",
     "date": "January 29, 2019",
     "guestDescription": "LEGO Sean Evans Interviews Queen Watevra Wa'Nabi",
-    "guest": ["Sean Evans", "Queen Watevra Wa'Nabi"],
+    "guest": [
+      "Sean Evans",
+      "Queen Watevra Wa'Nabi"
+    ],
     "episode_type": "special"
   },
   {
@@ -1444,7 +1513,11 @@
     "episode": "SPECIAL 0x34",
     "date": "April 18, 2019",
     "guestDescription": "Tom Segura and Bert Kreischer Play Truth or Dab",
-    "guest": ["Tom Segura", "Bert Kreischer", "Sean Evans"],
+    "guest": [
+      "Tom Segura",
+      "Bert Kreischer",
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1452,7 +1525,9 @@
     "episode": "SPECIAL 0x35",
     "date": "April 25, 2019",
     "guestDescription": "Sean Evans Tackles Season 8 Controversies and Answers Fan Questions",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1460,7 +1535,10 @@
     "episode": "SPECIAL 0x36",
     "date": "May 2, 2019",
     "guestDescription": "Seth Rogen and Charlize Theron Play Truth or Dab",
-    "guest": ["Seth Rogen", "Charlize Theron"],
+    "guest": [
+      "Seth Rogen",
+      "Charlize Theron"
+    ],
     "episode_type": "special"
   },
   {
@@ -1468,7 +1546,9 @@
     "episode": "SPECIAL 0x37",
     "date": "May 16, 2019",
     "guestDescription": "Sean Evans Reveals the Season 9 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1524,7 +1604,10 @@
     "episode": "SPECIAL 0x38",
     "date": "July 8, 2019",
     "guestDescription": "Stranger Things' Caleb McLaughlin and Gaten Matarazzo Play Truth or Dab",
-    "guest": ["Caleb McLaughlin", "Gaten Matarazzo"],
+    "guest": [
+      "Caleb McLaughlin",
+      "Gaten Matarazzo"
+    ],
     "episode_type": "special"
   },
   {
@@ -1580,7 +1663,9 @@
     "episode": "SPECIAL 0x39",
     "date": "August 22, 2019",
     "guestDescription": "Sean Evans Answers Burning Fan Questions",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1588,7 +1673,10 @@
     "episode": "SPECIAL 0x40",
     "date": "August 29, 2019",
     "guestDescription": "Marques Brownlee and Casey Neistat Play Truth or Dab",
-    "guest": ["Marques Brownlee", "Casey Neistat"],
+    "guest": [
+      "Marques Brownlee",
+      "Casey Neistat"
+    ],
     "episode_type": "special"
   },
   {
@@ -1596,7 +1684,9 @@
     "episode": "SPECIAL 0x41",
     "date": "September 5, 2019",
     "guestDescription": "Jay Pharoah Channels Keanu Reeves",
-    "guest": ["Jay Pharoah"],
+    "guest": [
+      "Jay Pharoah"
+    ],
     "episode_type": "special"
   },
   {
@@ -1604,7 +1694,9 @@
     "episode": "SPECIAL 0x42",
     "date": "September 12, 2019",
     "guestDescription": "Sean Evans Reveals the Season 10 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1708,7 +1800,9 @@
     "episode": "SPECIAL 0x43",
     "date": "December 12, 2019",
     "guestDescription": "The Hot Ones Holiday Special 2019",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1716,7 +1810,10 @@
     "episode": "SPECIAL 0x44",
     "date": "December 19, 2019",
     "guestDescription": "Diplo and Dillon Francis Play Truth or Dab",
-    "guest": ["Diplo", "Dillon Francis"],
+    "guest": [
+      "Diplo",
+      "Dillon Francis"
+    ],
     "episode_type": "special"
   },
   {
@@ -1724,7 +1821,9 @@
     "episode": "SPECIAL 0x45",
     "date": "December 21, 2019",
     "guestDescription": "The Best Da Bomb Reactions of 2019",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1732,7 +1831,10 @@
     "episode": "SPECIAL 0x46",
     "date": "December 26, 2019",
     "guestDescription": "Skip Bayless and Shannon Sharpe Play Truth or Dab",
-    "guest": ["Skip Bayless", "Shannon Sharpe"],
+    "guest": [
+      "Skip Bayless",
+      "Shannon Sharpe"
+    ],
     "episode_type": "special"
   },
   {
@@ -1740,7 +1842,9 @@
     "episode": "SPECIAL 0x47",
     "date": "January 16, 2020",
     "guestDescription": "Sean Evans Reveals the Season 11 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1748,7 +1852,10 @@
     "episode": "SPECIAL 0x48",
     "date": "January 30, 2020",
     "guestDescription": "Noah Centineo and Lana Condor Play Truth or Dab",
-    "guest": ["Noah Centineo", "Lana Condor"],
+    "guest": [
+      "Noah Centineo",
+      "Lana Condor"
+    ],
     "episode_type": "special"
   },
   {
@@ -1812,7 +1919,9 @@
     "episode": "SPECIAL 0x49",
     "date": "March 26, 2020",
     "guestDescription": "Quarantine Update",
-    "guest": ["Quarantine Update"],
+    "guest": [
+      "Quarantine Update"
+    ],
     "episode_type": "special"
   },
   {
@@ -1836,7 +1945,9 @@
     "episode": "SPECIAL 0x50",
     "date": "April 16, 2020",
     "guestDescription": "The Bella Twins Play Truth or Dab",
-    "guest": ["The Bella Twins"],
+    "guest": [
+      "The Bella Twins"
+    ],
     "episode_type": "special"
   },
   {
@@ -1844,7 +1955,10 @@
     "episode": "SPECIAL 0x51",
     "date": "April 23, 2020",
     "guestDescription": "Bert Kreischer Returns For A Rematch Against Spicy Wings",
-    "guest": ["Bert Kreischer", "Sean Evans"],
+    "guest": [
+      "Bert Kreischer",
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1852,7 +1966,9 @@
     "episode": "SPECIAL 0x52",
     "date": "April 30, 2020",
     "guestDescription": "Sean Evans Answers Fan Questions and Addresses Season 11 Controversies",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1860,7 +1976,9 @@
     "episode": "SPECIAL 0x53",
     "date": "May 7, 2020",
     "guestDescription": "The Best of Sean Evans Answering Questions from Celebrities",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1868,7 +1986,9 @@
     "episode": "SPECIAL 0x54",
     "date": "May 14, 2020",
     "guestDescription": "Sean Evans Tells the Story of the Time a SWAT Team Raided His Apartment",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1876,7 +1996,9 @@
     "episode": "SPECIAL 0x55",
     "date": "May 21, 2020",
     "guestDescription": "Sean Evans Shares His Spookiest Ghost Story",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1884,7 +2006,9 @@
     "episode": "SPECIAL 0x56",
     "date": "May 28, 2020",
     "guestDescription": "Sean Calls His Dad to Fact-Check A Childhood Injury",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1892,7 +2016,9 @@
     "episode": "SPECIAL 0x57",
     "date": "June 11, 2020",
     "guestDescription": "Sean Evans Describes His First Kiss",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1900,7 +2026,9 @@
     "episode": "SPECIAL 0x58",
     "date": "June 18, 2020",
     "guestDescription": "Sean Evans Reveals the Season 12 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1988,7 +2116,9 @@
     "episode": "SPECIAL 0x59",
     "date": "August 28, 2020",
     "guestDescription": "How to Play Truth or Dab at Home",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -1996,7 +2126,9 @@
     "episode": "SPECIAL 0x60",
     "date": "September 3, 2020",
     "guestDescription": "Sean Evans Answers Fan Questions and Addresses the Biggest Challenge of Season 12",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2004,7 +2136,10 @@
     "episode": "SPECIAL 0x61",
     "date": "September 10, 2020",
     "guestDescription": "Karrueche Tran and Victor Cruz Play Truth or Dab",
-    "guest": ["Karrueche Tran", "Victor Cruz"],
+    "guest": [
+      "Karrueche Tran",
+      "Victor Cruz"
+    ],
     "episode_type": "special"
   },
   {
@@ -2012,7 +2147,10 @@
     "episode": "SPECIAL 0x62",
     "date": "September 17, 2020",
     "guestDescription": "Anthony Joshua and Israel Adesanya Play Truth or Dab",
-    "guest": ["Anthony Joshua", "Israel Adesanya"],
+    "guest": [
+      "Anthony Joshua",
+      "Israel Adesanya"
+    ],
     "episode_type": "special"
   },
   {
@@ -2020,7 +2158,9 @@
     "episode": "SPECIAL 0x63",
     "date": "September 23, 2020",
     "guestDescription": "Lil Yachty and Sean Evans Eat the Spiciest Chip in the World",
-    "guest": ["Lil Yachty"],
+    "guest": [
+      "Lil Yachty"
+    ],
     "episode_type": "special"
   },
   {
@@ -2028,7 +2168,9 @@
     "episode": "SPECIAL 0x64",
     "date": "September 24, 2020",
     "guestDescription": "Sean Evans Reveals the Season 13 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2116,7 +2258,9 @@
     "episode": "SPECIAL 0x65",
     "date": "December 10, 2020",
     "guestDescription": "The Hot Ones Holiday Special 2020",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2124,7 +2268,10 @@
     "episode": "SPECIAL 0x66",
     "date": "December 17, 2020",
     "guestDescription": "Cody Ko and Noel Miller Play Truth or Dab",
-    "guest": ["Cody Ko", "Noel Miller"],
+    "guest": [
+      "Cody Ko",
+      "Noel Miller"
+    ],
     "episode_type": "special"
   },
   {
@@ -2132,7 +2279,9 @@
     "episode": "SPECIAL 0x67",
     "date": "December 24, 2020",
     "guestDescription": "The Best Da Bomb Reactions of 2020",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2140,7 +2289,9 @@
     "episode": "SPECIAL 0x68",
     "date": "January 14, 2021",
     "guestDescription": "The Best Last Dab Reactions of All Time",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2148,7 +2299,9 @@
     "episode": "SPECIAL 0x69",
     "date": "January 21, 2021",
     "guestDescription": "Sean Evans Reveals the Season 14 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2252,7 +2405,9 @@
     "episode": "SPECIAL 0x70",
     "date": "April 22, 2021",
     "guestDescription": "Sean Evans",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2260,7 +2415,10 @@
     "episode": "SPECIAL 0x71",
     "date": "April 29, 2021",
     "guestDescription": "Matty Matheson and Benny Blanco Play Truth or Dab",
-    "guest": ["Matty Matheson", "Benny Blanco"],
+    "guest": [
+      "Matty Matheson",
+      "Benny Blanco"
+    ],
     "episode_type": "special"
   },
   {
@@ -2268,7 +2426,9 @@
     "episode": "SPECIAL 0x72",
     "date": "May 6, 2021",
     "guestDescription": "Keke Palmer Listens to the Devil",
-    "guest": ["Keke Palmer"],
+    "guest": [
+      "Keke Palmer"
+    ],
     "episode_type": "special"
   },
   {
@@ -2276,7 +2436,9 @@
     "episode": "SPECIAL 0x73",
     "date": "May 20, 2021",
     "guestDescription": "Sean Evans Reveals the Season 15 Hot Sauce Lineup\u2014Plus, a BIG Announcement!",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2380,7 +2542,9 @@
     "episode": "SPECIAL 0x74",
     "date": "August 19, 2021",
     "guestDescription": "Sean Evans Tackles Season 15 Controversies and Answers Fan Questions",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2388,7 +2552,9 @@
     "episode": "SPECIAL 0x75",
     "date": "September 1, 2021",
     "guestDescription": "Sean Evans and Sasha Banks Try the Paqui One Chip Challenge",
-    "guest": ["Sasha Banks"],
+    "guest": [
+      "Sasha Banks"
+    ],
     "episode_type": "special"
   },
   {
@@ -2396,7 +2562,10 @@
     "episode": "SPECIAL 0x76",
     "date": "September 2, 2021",
     "guestDescription": "Ben Platt and Amandla Stenberg Play Truth or Dab",
-    "guest": ["Ben Platt", "Amandla Stenberg"],
+    "guest": [
+      "Ben Platt",
+      "Amandla Stenberg"
+    ],
     "episode_type": "special"
   },
   {
@@ -2404,7 +2573,10 @@
     "episode": "SPECIAL 0x77",
     "date": "September 9, 2021",
     "guestDescription": "Steve-O and Wee-Man Play Truth or Dab",
-    "guest": ["Steve-O", "Wee-Man"],
+    "guest": [
+      "Steve-O",
+      "Wee-Man"
+    ],
     "episode_type": "special"
   },
   {
@@ -2412,7 +2584,9 @@
     "episode": "SPECIAL 0x78",
     "date": "September 16, 2021",
     "guestDescription": "Sean Evans Reveals the Season 16 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2492,7 +2666,9 @@
     "episode": "SPECIAL 0x79",
     "date": "November 20, 2021",
     "guestDescription": "Coach Brad Underwood",
-    "guest": ["Coach Brad Underwood"],
+    "guest": [
+      "Coach Brad Underwood"
+    ],
     "episode_type": "special"
   },
   {
@@ -2524,7 +2700,9 @@
     "episode": "SPECIAL 0x80",
     "date": "December 23, 2021",
     "guestDescription": "Gordon Ramsay Returns for the Hot Ones Holiday Extravaganza",
-    "guest": ["Gordon Ramsay"],
+    "guest": [
+      "Gordon Ramsay"
+    ],
     "episode_type": "special"
   },
   {
@@ -2532,7 +2710,9 @@
     "episode": "SPECIAL 0x81",
     "date": "December 31, 2021",
     "guestDescription": "The Best Da Bomb Reactions of 2021",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2540,7 +2720,9 @@
     "episode": "SPECIAL 0x82",
     "date": "January 6, 2022",
     "guestDescription": "The Best Last Dab Reactions of 2021",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2548,7 +2730,9 @@
     "episode": "SPECIAL 0x83",
     "date": "January 13, 2022",
     "guestDescription": "Sean Evans Reveals the Season 17 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2588,7 +2772,10 @@
     "episode": "SPECIAL 0x84",
     "date": "February 13, 2022",
     "guestDescription": "NFL Pros Gabriel Davis and Isaiah Mckenzie Play Truth or Dab",
-    "guest": ["Gabriel Davis", "Isaiah Mckenzie"],
+    "guest": [
+      "Gabriel Davis",
+      "Isaiah Mckenzie"
+    ],
     "episode_type": "special"
   },
   {
@@ -2628,7 +2815,10 @@
     "episode": "SPECIAL 0x85",
     "date": "March 11, 2022",
     "guestDescription": "Goldberg and Big E Want to Fight",
-    "guest": ["Goldberg", "Big E"],
+    "guest": [
+      "Goldberg",
+      "Big E"
+    ],
     "episode_type": "special"
   },
   {
@@ -2668,7 +2858,9 @@
     "episode": "SPECIAL 0x86",
     "date": "April 14, 2022",
     "guestDescription": "Sean Evans Answers Fan Questions",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2676,7 +2868,10 @@
     "episode": "SPECIAL 0x87",
     "date": "May 5, 2022",
     "guestDescription": "Food Network Stars Alex Guarnaschelli and Eric Adjepong Play Truth or Dab",
-    "guest": ["Alex Guarnaschelli", "Eric Adjepong"],
+    "guest": [
+      "Alex Guarnaschelli",
+      "Eric Adjepong"
+    ],
     "episode_type": "special"
   },
   {
@@ -2684,7 +2879,9 @@
     "episode": "SPECIAL 0x88",
     "date": "May 19, 2022",
     "guestDescription": "Sean Evans Reveals the Season 18 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2700,7 +2897,9 @@
     "episode": "SPECIAL 0x89",
     "date": "June 1, 2022",
     "guestDescription": "The Ultimate Sean Evans Interview",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2804,7 +3003,9 @@
     "episode": "SPECIAL 0x90",
     "date": "August 12, 2022",
     "guestDescription": "The Impractical Jokers Play Truth or Dab",
-    "guest": ["The Impractical Jokers"],
+    "guest": [
+      "The Impractical Jokers"
+    ],
     "episode_type": "special"
   },
   {
@@ -2812,7 +3013,9 @@
     "episode": "SPECIAL 0x91",
     "date": "August 25, 2022",
     "guestDescription": "Tony Hawk and Sean Evans Take on the Paqui One Chip Challenge",
-    "guest": ["Tony Hawk"],
+    "guest": [
+      "Tony Hawk"
+    ],
     "episode_type": "special"
   },
   {
@@ -2820,7 +3023,9 @@
     "episode": "SPECIAL 0x92",
     "date": "September 15, 2022",
     "guestDescription": "Sean Evans Taste-Tests the New Hot Ones x Shake Shack Menu",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2828,7 +3033,9 @@
     "episode": "SPECIAL 0x93",
     "date": "September 22, 2022",
     "guestDescription": "Sean Evans Reveals the Season 19 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2924,7 +3131,10 @@
     "episode": "SPECIAL 0x94",
     "date": "December 12, 2022",
     "guestDescription": "Puss in Boots Can\u2019t Feel His Tail",
-    "guest": ["Puss in Boots", "Sean Evans"],
+    "guest": [
+      "Puss in Boots",
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2948,7 +3158,10 @@
     "episode": "SPECIAL 0x95",
     "date": "December 22, 2022",
     "guestDescription": "Will Ferrell Brings the Spirit to the Hot Ones Holiday Extravaganza",
-    "guest": ["Will Ferrell", "Sean Evans"],
+    "guest": [
+      "Will Ferrell",
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2956,7 +3169,9 @@
     "episode": "SPECIAL 0x96",
     "date": "December 29, 2022",
     "guestDescription": "The Best Da Bomb Reactions of 2022",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2964,7 +3179,9 @@
     "episode": "SPECIAL 0x97",
     "date": "January 13, 2023",
     "guestDescription": "The Best Last Dab Reactions of 2022",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -2972,7 +3189,9 @@
     "episode": "SPECIAL 0x98",
     "date": "January 19, 2023",
     "guestDescription": "Sean Evans Reveals the Season 20 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3004,7 +3223,10 @@
     "episode": "SPECIAL 0x99",
     "date": "February 10, 2023",
     "guestDescription": "NFL Pros Darius Slayton and Andrew Thomas Play Truth or Dab",
-    "guest": ["Darius Slayton", "Andrew Thomas"],
+    "guest": [
+      "Darius Slayton",
+      "Andrew Thomas"
+    ],
     "episode_type": "special"
   },
   {
@@ -3084,7 +3306,9 @@
     "episode": "SPECIAL 0x100",
     "date": "April 27, 2023",
     "guestDescription": "A History of Hot Ones Guests Yelling at Sean Evans",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3092,7 +3316,10 @@
     "episode": "SPECIAL 0x101",
     "date": "May 11, 2023",
     "guestDescription": "Hot Ones Classics: Bert Kreischer Relives His First Encounter with the Wings of Death",
-    "guest": ["Bert Kreischer", "Sean Evans"],
+    "guest": [
+      "Bert Kreischer",
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3100,7 +3327,9 @@
     "episode": "SPECIAL 0x102",
     "date": "May 16, 2023",
     "guestDescription": "The Chainsmokers Play Truth or Dab",
-    "guest": ["The Chainsmokers"],
+    "guest": [
+      "The Chainsmokers"
+    ],
     "episode_type": "special"
   },
   {
@@ -3108,7 +3337,9 @@
     "episode": "SPECIAL 0x103",
     "date": "May 18, 2023",
     "guestDescription": "Sean Evans Reveals the Season 21 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3132,7 +3363,10 @@
     "episode": "SPECIAL 0x104",
     "date": "June 2, 2023",
     "guestDescription": "J.R. Smith and Richard Jefferson Play Truth or Dab",
-    "guest": ["J.R. Smith", "Richard Jefferson"],
+    "guest": [
+      "J.R. Smith",
+      "Richard Jefferson"
+    ],
     "episode_type": "special"
   },
   {
@@ -3228,7 +3462,10 @@
     "episode": "SPECIAL 0x105",
     "date": "August 24, 2023",
     "guestDescription": "AEW Stars MJF and Adam Cole Play Truth or Dab (Bay Bay)",
-    "guest": ["AEW Stars MJF", "Adam Cole"],
+    "guest": [
+      "AEW Stars MJF",
+      "Adam Cole"
+    ],
     "episode_type": "special"
   },
   {
@@ -3236,7 +3473,9 @@
     "episode": "SPECIAL 0x106",
     "date": "September 7, 2023",
     "guestDescription": "Mortal Kombat Co-Creator Ed Boon Feels Toasty",
-    "guest": ["Ed Boon"],
+    "guest": [
+      "Ed Boon"
+    ],
     "episode_type": "special"
   },
   {
@@ -3244,7 +3483,9 @@
     "episode": "SPECIAL 0x107",
     "date": "September 14, 2023",
     "guestDescription": "Sean Evans Reveals the Season 22 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3284,7 +3525,10 @@
     "episode": "SPECIAL 0x108",
     "date": "October 16, 2023",
     "guestDescription": "Pepper X: Sean Evans, Chili Klaus & Smokin' Ed Currie Eat the New World's Hottest Pepper",
-    "guest": ["Chili Klaus", "Smokin' Ed Currie"],
+    "guest": [
+      "Chili Klaus",
+      "Smokin' Ed Currie"
+    ],
     "episode_type": "special"
   },
   {
@@ -3364,7 +3608,9 @@
     "episode": "SPECIAL 0x109",
     "date": "December 21, 2023",
     "guestDescription": "Steve-O Is Extra Naughty For the Hot Ones Holiday Extravaganza",
-    "guest": ["Steve-O"],
+    "guest": [
+      "Steve-O"
+    ],
     "episode_type": "special"
   },
   {
@@ -3372,7 +3618,9 @@
     "episode": "SPECIAL 0x110",
     "date": "December 28, 2023",
     "guestDescription": "The Best Da Bomb Reactions of 2023",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3380,7 +3628,9 @@
     "episode": "SPECIAL 0x111",
     "date": "January 11, 2024",
     "guestDescription": "The Best Last Dab Reactions of 2023",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3388,7 +3638,9 @@
     "episode": "SPECIAL 0x112",
     "date": "January 18, 2024",
     "guestDescription": "Sean Evans Reveals the Season 23 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3404,7 +3656,10 @@
     "episode": "SPECIAL 0x117",
     "date": "January 31, 2024",
     "guestDescription": "Gabriel Iglesias vs. Emilio Rivera",
-    "guest": ["Gabriel Iglesias", "Emilio Rivera"],
+    "guest": [
+      "Gabriel Iglesias",
+      "Emilio Rivera"
+    ],
     "episode_type": "special"
   },
   {
@@ -3428,7 +3683,10 @@
     "episode": "SPECIAL 0x113",
     "date": "February 9, 2024",
     "guestDescription": "Cam Newton and Brandon Marshall Play Truth or Dab",
-    "guest": ["Cam Newton", "Brandon Marshall"],
+    "guest": [
+      "Cam Newton",
+      "Brandon Marshall"
+    ],
     "episode_type": "special"
   },
   {
@@ -3444,7 +3702,10 @@
     "episode": "SPECIAL 0x114",
     "date": "February 16, 2024",
     "guestDescription": "Gigi Hadid and Tan France Play Truth or Dab",
-    "guest": ["Gigi Hadid", "Tan France"],
+    "guest": [
+      "Gigi Hadid",
+      "Tan France"
+    ],
     "episode_type": "special"
   },
   {
@@ -3460,7 +3721,10 @@
     "episode": "SPECIAL 0x115",
     "date": "February 28, 2024",
     "guestDescription": "Seth Rollins vs. Becky Lynch",
-    "guest": ["Seth Rollins", "Becky Lynch"],
+    "guest": [
+      "Seth Rollins",
+      "Becky Lynch"
+    ],
     "episode_type": "special"
   },
   {
@@ -3476,7 +3740,9 @@
     "episode": "SPECIAL 0x116",
     "date": "March 4, 2024",
     "guestDescription": "Emma Chamberlain",
-    "guest": ["Emma Chamberlain"],
+    "guest": [
+      "Emma Chamberlain"
+    ],
     "episode_type": "special"
   },
   {
@@ -3500,7 +3766,10 @@
     "episode": "SPECIAL 0x118",
     "date": "March 19, 2024",
     "guestDescription": "Jalen Brunson vs. Josh Hart",
-    "guest": ["Jalen Brunson", "Josh Hart"],
+    "guest": [
+      "Jalen Brunson",
+      "Josh Hart"
+    ],
     "episode_type": "special"
   },
   {
@@ -3516,7 +3785,10 @@
     "episode": "SPECIAL 0x119",
     "date": "March 25, 2024",
     "guestDescription": "Carlos Boozer vs. Jay Williams",
-    "guest": ["Carlos Boozer", "Jay Williams"],
+    "guest": [
+      "Carlos Boozer",
+      "Jay Williams"
+    ],
     "episode_type": "special"
   },
   {
@@ -3548,7 +3820,10 @@
     "episode": "SPECIAL 0x120",
     "date": "April 17, 2024",
     "guestDescription": "Zack Fox vs. Thundercat",
-    "guest": ["Zack Fox", "Thundercat"],
+    "guest": [
+      "Zack Fox",
+      "Thundercat"
+    ],
     "episode_type": "special"
   },
   {
@@ -3556,7 +3831,9 @@
     "episode": "SPECIAL 0x121",
     "date": "April 18, 2024",
     "guestDescription": "Ludacris",
-    "guest": ["Ludacris"],
+    "guest": [
+      "Ludacris"
+    ],
     "episode_type": "special"
   },
   {
@@ -3564,7 +3841,10 @@
     "episode": "SPECIAL 0x122",
     "date": "April 24, 2024",
     "guestDescription": "mgk vs. Trippie Redd",
-    "guest": ["mgk", "Trippie Redd"],
+    "guest": [
+      "mgk",
+      "Trippie Redd"
+    ],
     "episode_type": "special"
   },
   {
@@ -3572,7 +3852,10 @@
     "episode": "SPECIAL 0x123",
     "date": "May 1, 2024",
     "guestDescription": "Steve-O vs. Fianc\u00e9e Lux Wright",
-    "guest": ["Steve-O", "Fianc\u00e9e Lux Wright"],
+    "guest": [
+      "Steve-O",
+      "Fianc\u00e9e Lux Wright"
+    ],
     "episode_type": "special"
   },
   {
@@ -3580,7 +3863,9 @@
     "episode": "SPECIAL 0x124",
     "date": "May 16, 2024",
     "guestDescription": "Sean Evans Reveals the Season 24 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3620,7 +3905,10 @@
     "episode": "SPECIAL 0x125",
     "date": "June 17, 2024",
     "guestDescription": "The Boys\u2019 Antony Starr vs. Chace Crawford",
-    "guest": ["Antony Starr", "Chace Crawford"],
+    "guest": [
+      "Antony Starr",
+      "Chace Crawford"
+    ],
     "episode_type": "special"
   },
   {
@@ -3636,7 +3924,9 @@
     "episode": "SPECIAL 0x126",
     "date": "June 24, 2024",
     "guestDescription": "Sean Evans Interviews Himself",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3644,7 +3934,10 @@
     "episode": "SPECIAL 0x127",
     "date": "June 25, 2024",
     "guestDescription": "Uncle Roger vs. Nick DiGiovanni",
-    "guest": ["Uncle Roger", "Nick DiGiovanni"],
+    "guest": [
+      "Uncle Roger",
+      "Nick DiGiovanni"
+    ],
     "episode_type": "special"
   },
   {
@@ -3660,7 +3953,10 @@
     "episode": "SPECIAL 0x128",
     "date": "July 2, 2024",
     "guestDescription": "Joey King vs. Miranda Cosgrove",
-    "guest": ["Joey King", "Miranda Cosgrove"],
+    "guest": [
+      "Joey King",
+      "Miranda Cosgrove"
+    ],
     "episode_type": "special"
   },
   {
@@ -3676,7 +3972,10 @@
     "episode": "SPECIAL 0x129",
     "date": "July 9, 2024",
     "guestDescription": "Billie Eilish vs. Finneas",
-    "guest": ["Billie Eilish", "Finneas"],
+    "guest": [
+      "Billie Eilish",
+      "Finneas"
+    ],
     "episode_type": "special"
   },
   {
@@ -3692,7 +3991,10 @@
     "episode": "SPECIAL 0x130",
     "date": "July 15, 2024",
     "guestDescription": "Glen Powell vs. Daisy Edgar-Jones",
-    "guest": ["Glen Powell", "Daisy Edgar-Jones"],
+    "guest": [
+      "Glen Powell",
+      "Daisy Edgar-Jones"
+    ],
     "episode_type": "special"
   },
   {
@@ -3708,7 +4010,10 @@
     "episode": "SPECIAL 0x131",
     "date": "July 22, 2024",
     "guestDescription": "Bianca Belair vs. Jade Cargill",
-    "guest": ["Bianca Belair", "Jade Cargill"],
+    "guest": [
+      "Bianca Belair",
+      "Jade Cargill"
+    ],
     "episode_type": "special"
   },
   {
@@ -3724,7 +4029,10 @@
     "episode": "SPECIAL 0x132",
     "date": "July 29, 2024",
     "guestDescription": "Davante Adams vs. Amon-Ra St. Brown",
-    "guest": ["Davante Adams", "Amon-Ra St. Brown"],
+    "guest": [
+      "Davante Adams",
+      "Amon-Ra St. Brown"
+    ],
     "episode_type": "special"
   },
   {
@@ -3740,7 +4048,10 @@
     "episode": "SPECIAL 0x133",
     "date": "August 7, 2024",
     "guestDescription": "Rob Lowe vs. John Owen Lowe",
-    "guest": ["Rob Lowe", "John Owen Lowe"],
+    "guest": [
+      "Rob Lowe",
+      "John Owen Lowe"
+    ],
     "episode_type": "special"
   },
   {
@@ -3756,7 +4067,10 @@
     "episode": "SPECIAL 0x134",
     "date": "August 14, 2024",
     "guestDescription": "The Umbrella Academy's Tom Hopper vs. Robert Sheehan",
-    "guest": ["Tom Hopper", "Robert Sheehan"],
+    "guest": [
+      "Tom Hopper",
+      "Robert Sheehan"
+    ],
     "episode_type": "special"
   },
   {
@@ -3764,7 +4078,11 @@
     "episode": "SPECIAL 0x135",
     "date": "August 21, 2024",
     "guestDescription": "Channing Tatum vs. Zo\u00eb Kravitz vs. Naomi Ackie",
-    "guest": ["Channing Tatum", "Zo\u00eb Kravitz", "Naomi Ackie"],
+    "guest": [
+      "Channing Tatum",
+      "Zo\u00eb Kravitz",
+      "Naomi Ackie"
+    ],
     "episode_type": "special"
   },
   {
@@ -3772,7 +4090,9 @@
     "episode": "SPECIAL 0x136",
     "date": "August 23, 2024",
     "guestDescription": "Donald Duck Tries to Keep His Cool",
-    "guest": ["Donald Duck"],
+    "guest": [
+      "Donald Duck"
+    ],
     "episode_type": "special"
   },
   {
@@ -3780,7 +4100,9 @@
     "episode": "SPECIAL 0x137",
     "date": "August 27, 2024",
     "guestDescription": "Beetlejuice goes ghost pepper while eating to die for ribs",
-    "guest": ["Beetlejuice"],
+    "guest": [
+      "Beetlejuice"
+    ],
     "episode_type": "special"
   },
   {
@@ -3788,7 +4110,10 @@
     "episode": "SPECIAL 0x138",
     "date": "August 28, 2024",
     "guestDescription": "Maddie Ziegler vs. Maisy Stella",
-    "guest": ["Maddie Ziegler", "Maisy Stella"],
+    "guest": [
+      "Maddie Ziegler",
+      "Maisy Stella"
+    ],
     "episode_type": "special"
   },
   {
@@ -3796,7 +4121,9 @@
     "episode": "SPECIAL 0x139",
     "date": "August 29, 2024",
     "guestDescription": "David Beckham Embraces the Moment",
-    "guest": ["David Beckham"],
+    "guest": [
+      "David Beckham"
+    ],
     "episode_type": "special"
   },
   {
@@ -3804,7 +4131,10 @@
     "episode": "SPECIAL 0x140",
     "date": "September 3, 2024",
     "guestDescription": "Kali Uchis vs. JT",
-    "guest": ["Kali Uchis", "JT"],
+    "guest": [
+      "Kali Uchis",
+      "JT"
+    ],
     "episode_type": "special"
   },
   {
@@ -3812,7 +4142,9 @@
     "episode": "SPECIAL 0x141",
     "date": "September 5, 2024",
     "guestDescription": "Cam Heyward Tackles the Heat For the Hot Ones Football Special",
-    "guest": ["Cam Heyward"],
+    "guest": [
+      "Cam Heyward"
+    ],
     "episode_type": "special"
   },
   {
@@ -3820,7 +4152,10 @@
     "episode": "SPECIAL 0x142",
     "date": "September 10, 2024",
     "guestDescription": "Aubrey Plaza vs. Patti LuPone",
-    "guest": ["Aubrey Plaza", "Patti LuPone"],
+    "guest": [
+      "Aubrey Plaza",
+      "Patti LuPone"
+    ],
     "episode_type": "special"
   },
   {
@@ -3828,7 +4163,9 @@
     "episode": "SPECIAL 0x143",
     "date": "September 12, 2024",
     "guestDescription": "Sean Evans Reveals the Season 25 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3836,7 +4173,10 @@
     "episode": "SPECIAL 0x144",
     "date": "September 17, 2024",
     "guestDescription": "Mackenzie Davis vs. James McAvoy",
-    "guest": ["Mackenzie Davis", "James McAvoy"],
+    "guest": [
+      "Mackenzie Davis",
+      "James McAvoy"
+    ],
     "episode_type": "special"
   },
   {
@@ -3852,7 +4192,9 @@
     "episode": "SPECIAL 0x145",
     "date": "September 23, 2024",
     "guestDescription": "The ULTIMATE Buffalo Wing Tour! 24 Hours in Buffalo with Camera Guy Bill",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3868,7 +4210,10 @@
     "episode": "SPECIAL 0x146",
     "date": "October 1, 2024",
     "guestDescription": "Slipknot\u2019s Corey Taylor vs. Shawn \u201cClown\u201d Crahan",
-    "guest": ["Corey Taylor", "Shawn \u201cClown\u201d Crahan"],
+    "guest": [
+      "Corey Taylor",
+      "Shawn \u201cClown\u201d Crahan"
+    ],
     "episode_type": "special"
   },
   {
@@ -3892,7 +4237,10 @@
     "episode": "SPECIAL 0x147",
     "date": "October 15, 2024",
     "guestDescription": "Max Greenfield vs. Damon Wayans Jr.",
-    "guest": ["Max Greenfield", "Damon Wayans Jr."],
+    "guest": [
+      "Max Greenfield",
+      "Damon Wayans Jr."
+    ],
     "episode_type": "special"
   },
   {
@@ -3908,7 +4256,9 @@
     "episode": "SPECIAL 0x148",
     "date": "October 21, 2024",
     "guestDescription": "Peter Griffin Bares It All",
-    "guest": ["Peter Griffin"],
+    "guest": [
+      "Peter Griffin"
+    ],
     "episode_type": "special"
   },
   {
@@ -3924,7 +4274,9 @@
     "episode": "SPECIAL 0x149",
     "date": "October 28, 2024",
     "guestDescription": "How to Make the Ultimate Hot Ones Chicken Wing",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -3932,7 +4284,9 @@
     "episode": "SPECIAL 0x150",
     "date": "October 29, 2024",
     "guestDescription": "Outer Banks: Winner Takes All",
-    "guest": ["Cast ofOuter Banks"],
+    "guest": [
+      "Cast ofOuter Banks"
+    ],
     "episode_type": "special"
   },
   {
@@ -3964,7 +4318,10 @@
     "episode": "SPECIAL 0x151",
     "date": "November 19, 2024",
     "guestDescription": "Richard Sherman vs. Ryan Fitzpatrick",
-    "guest": ["Richard Sherman", "Ryan Fitzpatrick"],
+    "guest": [
+      "Richard Sherman",
+      "Ryan Fitzpatrick"
+    ],
     "episode_type": "special"
   },
   {
@@ -3980,7 +4337,9 @@
     "episode": "SPECIAL 0x152",
     "date": "November 25, 2024",
     "guestDescription": "T-Pain Regrets His Life Choices",
-    "guest": ["T-Pain"],
+    "guest": [
+      "T-Pain"
+    ],
     "episode_type": "special"
   },
   {
@@ -3988,7 +4347,9 @@
     "episode": "SPECIAL 0x153",
     "date": "November 26, 2024",
     "guestDescription": "Hot Ones Thanksgiving Sandwich: 10 LOADED Layers of Leftovers",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -4004,7 +4365,10 @@
     "episode": "SPECIAL 0x154",
     "date": "December 3, 2024",
     "guestDescription": "Fred Durst vs. Kyle Mooney",
-    "guest": ["Fred Durst", "Kyle Mooney"],
+    "guest": [
+      "Fred Durst",
+      "Kyle Mooney"
+    ],
     "episode_type": "special"
   },
   {
@@ -4020,7 +4384,10 @@
     "episode": "SPECIAL 0x155",
     "date": "December 6, 2024",
     "guestDescription": "Kyle Kuzma vs. Winnie Harlow",
-    "guest": ["Kyle Kuzma", "Winnie Harlow"],
+    "guest": [
+      "Kyle Kuzma",
+      "Winnie Harlow"
+    ],
     "episode_type": "special"
   },
   {
@@ -4028,7 +4395,9 @@
     "episode": "SPECIAL 0x156",
     "date": "December 19, 2024",
     "guestDescription": "Ken Jeong Spreads Joy at the Hot Ones Holiday Extravaganza",
-    "guest": ["Ken Jeong"],
+    "guest": [
+      "Ken Jeong"
+    ],
     "episode_type": "special"
   },
   {
@@ -4036,7 +4405,10 @@
     "episode": "SPECIAL 0x157",
     "date": "December 23, 2024",
     "guestDescription": "Nicholas Hoult vs. Lily-Rose Depp",
-    "guest": ["Nicholas Hoult", "Lily-Rose Depp"],
+    "guest": [
+      "Nicholas Hoult",
+      "Lily-Rose Depp"
+    ],
     "episode_type": "special"
   },
   {
@@ -4044,7 +4416,9 @@
     "episode": "SPECIAL 0x158",
     "date": "January 2, 2025",
     "guestDescription": "The Best Da Bomb Reactions of 2024",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -4052,7 +4426,9 @@
     "episode": "SPECIAL 0x159",
     "date": "January 8, 2025",
     "guestDescription": "How to Make the Ultimate Hot Ones Nachos",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -4060,7 +4436,10 @@
     "episode": "SPECIAL 0x160",
     "date": "January 14, 2025",
     "guestDescription": "Squid Game\u2019s Lee Jung-jae vs. Lee Byung-hun",
-    "guest": ["Lee Jung-jae", "Lee Byung-hun"],
+    "guest": [
+      "Lee Jung-jae",
+      "Lee Byung-hun"
+    ],
     "episode_type": "special"
   },
   {
@@ -4068,7 +4447,9 @@
     "episode": "SPECIAL 0x161",
     "date": "January 15, 2025",
     "guestDescription": "Lil Yachty Takes His Final Form",
-    "guest": ["Lil Yachty"],
+    "guest": [
+      "Lil Yachty"
+    ],
     "episode_type": "special"
   },
   {
@@ -4076,7 +4457,9 @@
     "episode": "SPECIAL 0x162",
     "date": "January 16, 2025",
     "guestDescription": "Sean Evans Reveals the Season 26 Hot Sauce Lineup",
-    "guest": ["Sean Evans"],
+    "guest": [
+      "Sean Evans"
+    ],
     "episode_type": "special"
   },
   {
@@ -4084,7 +4467,11 @@
     "episode": "SPECIAL 0x163",
     "date": "January 21, 2025",
     "guestDescription": "Keke Palmer vs. SZA vs. Issa Rae",
-    "guest": ["Keke Palmer", "SZA", "Issa Rae"],
+    "guest": [
+      "Keke Palmer",
+      "SZA",
+      "Issa Rae"
+    ],
     "episode_type": "special"
   },
   {
@@ -4100,7 +4487,10 @@
     "episode": "SPECIAL 0x164",
     "date": "January 28, 2025",
     "guestDescription": "WWE Superstars Drew McIntyre vs. Sheamus",
-    "guest": ["Drew McIntyre", "Sheamus"],
+    "guest": [
+      "Drew McIntyre",
+      "Sheamus"
+    ],
     "episode_type": "special"
   },
   {
@@ -4116,7 +4506,10 @@
     "episode": "SPECIAL 0x165",
     "date": "February 4, 2025",
     "guestDescription": "Adam Scott vs. Patricia Arquette",
-    "guest": ["Adam Scott", "Patricia Arquette"],
+    "guest": [
+      "Adam Scott",
+      "Patricia Arquette"
+    ],
     "episode_type": "special"
   },
   {
@@ -4148,7 +4541,10 @@
     "episode": "SPECIAL 0x166",
     "date": "February 25, 2025",
     "guestDescription": "Anthony Mackie vs. Danny Ramirez",
-    "guest": ["Anthony Mackie", "Danny Ramirez"],
+    "guest": [
+      "Anthony Mackie",
+      "Danny Ramirez"
+    ],
     "episode_type": "special"
   },
   {
@@ -4164,7 +4560,10 @@
     "episode": "SPECIAL 0x167",
     "date": "March 4, 2025",
     "guestDescription": "Paul Wesley vs. Ian Somerhalder",
-    "guest": ["Paul Wesley", "Ian Somerhalder"],
+    "guest": [
+      "Paul Wesley",
+      "Ian Somerhalder"
+    ],
     "episode_type": "special"
   },
   {
@@ -4180,7 +4579,10 @@
     "episode": "SPECIAL 0x168",
     "date": "March 7, 2025",
     "guestDescription": "Doechii vs. DJ Miss Milan",
-    "guest": ["Doechii", "DJ Miss Milan"],
+    "guest": [
+      "Doechii",
+      "DJ Miss Milan"
+    ],
     "episode_type": "special"
   },
   {
@@ -4188,7 +4590,10 @@
     "episode": "SPECIAL 0x169",
     "date": "March 11, 2025",
     "guestDescription": "Christina Ricci vs. Melanie Lynskey",
-    "guest": ["Christina Ricci", "Melanie Lynskey"],
+    "guest": [
+      "Christina Ricci",
+      "Melanie Lynskey"
+    ],
     "episode_type": "special"
   },
   {
@@ -4204,7 +4609,11 @@
     "episode": "SPECIAL 0x170",
     "date": "March 14, 2025",
     "guestDescription": "Asif Ali vs. Poorna Jagannathan vs. Saagar Shaikh",
-    "guest": ["Asif Ali", "Purna Jagannathan", "Saagar Shaikh"],
+    "guest": [
+      "Asif Ali",
+      "Purna Jagannathan",
+      "Saagar Shaikh"
+    ],
     "episode_type": "special"
   },
   {
@@ -4228,7 +4637,10 @@
     "episode": "SPECIAL 0x171",
     "date": "April 1, 2025",
     "guestDescription": "Hailee Steinfeld vs. Michael B. Jordan",
-    "guest": ["Hailee Steinfeld", "Michael B. Jordan"],
+    "guest": [
+      "Hailee Steinfeld",
+      "Michael B. Jordan"
+    ],
     "episode_type": "special"
   },
   {
@@ -4244,7 +4656,10 @@
     "episode": "SPECIAL 0x172",
     "date": "April 8, 2025",
     "guestDescription": "Kathryn Hahn vs. Seth Rogen",
-    "guest": ["Kathryn Hahn", "Seth Rogen"],
+    "guest": [
+      "Kathryn Hahn",
+      "Seth Rogen"
+    ],
     "episode_type": "special"
   },
   {
@@ -4260,15 +4675,21 @@
     "episode": "SPECIAL 0x173",
     "date": "April 15, 2025",
     "guestDescription": "Liv Morgan vs. Dominik Mysterio",
-    "guest": ["Liv Morgan", "Dominik Mysterio"],
+    "guest": [
+      "Liv Morgan",
+      "Dominik Mysterio"
+    ],
     "episode_type": "special"
   },
   {
-  "season": "26",
-  "episode": "SPECIAL 0x174",
-  "date": "April 22, 2025",
-  "guestDescription": "Viola Davis vs. Julius Tennon",
-  "guest": ["Viola Davis", "Julius Tennon"],
-  "episode_type": "special"
+    "season": "26",
+    "episode": "SPECIAL 0x174",
+    "date": "April 22, 2025",
+    "guestDescription": "Viola Davis vs. Julius Tennon",
+    "guest": [
+      "Viola Davis",
+      "Julius Tennon"
+    ],
+    "episode_type": "special"
   }
 ]
