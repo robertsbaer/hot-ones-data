@@ -50,5 +50,5 @@ This project is a spicy, comprehensive collection of **Hot Ones** episodes and s
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourusername/hotsauce.git
+   git clone https://github.com/robertsbaer/hotsauce.git
    ```
