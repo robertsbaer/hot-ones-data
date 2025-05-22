@@ -437,96 +437,96 @@ function App() {
                   </div>
                 ))}
               </div>
+            </div>
 
-              <div className="bg-gray-800 p-6 rounded-lg">
-                <h2 className="text-2xl font-semibold mb-4">
-                  Heat Trends Across Seasons
-                </h2>
-                <div className="h-[300px] md:h-[400px] lg:h-[500px]">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <LineChart
-                      data={Object.entries(allSeasonSauces).map(
-                        ([season, sauces]) => ({
-                          season: parseInt(season),
-                          maxScoville: Math.max(...sauces.map((s) => s.scoville)),
-                          minScoville: Math.min(...sauces.map((s) => s.scoville)),
-                          avgScoville: Math.round(
-                            sauces.reduce((acc, s) => acc + s.scoville, 0) /
-                              sauces.length
-                          ),
-                        })
-                      )}
-                      margin={{ top: 10, right: 10, left: 10, bottom: 20 }}
-                    >
-                      <XAxis
-                        dataKey="season"
-                        stroke="#fff"
-                        label={{
-                          value: "Season",
-                          position: "insideBottom",
-                          offset: -10,
-                        }}
-                        tick={{ fontSize: 12 }}
-                        interval="preserveStartEnd"
-                      />
-                      <YAxis
-                        stroke="#fff"
-                        label={{
-                          value: "Scoville Heat Units",
-                          angle: -90,
-                          position: "insideLeft",
-                          offset: 0,
-                        }}
-                        tick={{ fontSize: 12 }}
-                        tickFormatter={(value) =>
-                          value >= 1000000
-                            ? `${(value / 1000000).toFixed(1)}M`
-                            : value >= 1000
-                            ? `${(value / 1000).toFixed(0)}K`
-                            : value
-                        }
-                        width={60}
-                      />
-                      <Tooltip
-                        contentStyle={{
-                          backgroundColor: "#1f2937",
-                          border: "none",
-                        }}
-                        labelStyle={{ color: "#fff" }}
-                        formatter={(value: number) =>
-                          `${value.toLocaleString()} SHU`
-                        }
-                      />
-                      <Line
-                        type="monotone"
-                        dataKey="maxScoville"
-                        stroke="#ef4444"
-                        name="Max Scoville"
-                        strokeWidth={2}
-                        dot={{ r: 3 }}
-                        activeDot={{ r: 5 }}
-                      />
-                      <Line
-                        type="monotone"
-                        dataKey="avgScoville"
-                        stroke="#f97316"
-                        name="Avg Scoville"
-                        strokeWidth={2}
-                        dot={{ r: 3 }}
-                        activeDot={{ r: 5 }}
-                      />
-                      <Line
-                        type="monotone"
-                        dataKey="minScoville"
-                        stroke="#fbbf24"
-                        name="Min Scoville"
-                        strokeWidth={3} // Increased stroke width here
-                        dot={{ r: 3 }}
-                        activeDot={{ r: 5 }}
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <h2 className="text-2xl font-semibold mb-4">
+                Heat Trends Across Seasons
+              </h2>
+              <div className="h-[300px] md:h-[400px] lg:h-[500px]">
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart
+                    data={Object.entries(allSeasonSauces).map(
+                      ([season, sauces]) => ({
+                        season: parseInt(season),
+                        maxScoville: Math.max(...sauces.map((s) => s.scoville)),
+                        minScoville: Math.min(...sauces.map((s) => s.scoville)),
+                        avgScoville: Math.round(
+                          sauces.reduce((acc, s) => acc + s.scoville, 0) /
+                            sauces.length
+                        ),
+                      })
+                    )}
+                    margin={{ top: 10, right: 10, left: 10, bottom: 20 }}
+                  >
+                    <XAxis
+                      dataKey="season"
+                      stroke="#fff"
+                      label={{
+                        value: "Season",
+                        position: "insideBottom",
+                        offset: -10,
+                      }}
+                      tick={{ fontSize: 12 }}
+                      interval="preserveStartEnd"
+                    />
+                    <YAxis
+                      stroke="#fff"
+                      label={{
+                        value: "Scoville Heat Units",
+                        angle: -90,
+                        position: "insideLeft",
+                        offset: 0,
+                      }}
+                      tick={{ fontSize: 12 }}
+                      tickFormatter={(value) =>
+                        value >= 1000000
+                          ? `${(value / 1000000).toFixed(1)}M`
+                          : value >= 1000
+                          ? `${(value / 1000).toFixed(0)}K`
+                          : value
+                      }
+                      width={60}
+                    />
+                    <Tooltip
+                      contentStyle={{
+                        backgroundColor: "#1f2937",
+                        border: "none",
+                      }}
+                      labelStyle={{ color: "#fff" }}
+                      formatter={(value: number) =>
+                        `${value.toLocaleString()} SHU`
+                      }
+                    />
+                    <Line
+                      type="monotone"
+                      dataKey="maxScoville"
+                      stroke="#ef4444"
+                      name="Max Scoville"
+                      strokeWidth={2}
+                      dot={{ r: 3 }}
+                      activeDot={{ r: 5 }}
+                    />
+                    <Line
+                      type="monotone"
+                      dataKey="avgScoville"
+                      stroke="#f97316"
+                      name="Avg Scoville"
+                      strokeWidth={2}
+                      dot={{ r: 3 }}
+                      activeDot={{ r: 5 }}
+                    />
+                    <Line
+                      type="monotone"
+                      dataKey="minScoville"
+                      stroke="#fbbf24"
+                      name="Min Scoville"
+                      strokeWidth={2}
+                      dot={{ r: 3 }}
+                      activeDot={{ r: 5 }}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
               </div>
             </div>
           </div>
