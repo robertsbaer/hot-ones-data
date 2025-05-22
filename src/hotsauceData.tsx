@@ -311,6 +311,18 @@ const allSeasonSauces = {
       { name: "Queen Majesty Sicilian Scorpion Hot Sauce", scoville: 816000 },
       { name: "Hot Ones The Last Dab Xperience Hot Sauce", scoville: 2693000 }
     ],
+    27: [
+      { name: "Shaquanda's Hot Tropic", scoville: 1400 },
+      { name: "Seed Ranch Flavor Co’s Just Wingin' It", scoville: 5700 },
+      { name: "Hot Ones Pickled Garlic Sriracha", scoville: 18000 },
+      { name: "Alchemy Peppers’ Mango Serrano Hops", scoville: 27000 },
+      { name: "Hook & Arrow’s Spicier Sauerkraut & Mustard", scoville: 51000},
+      { name: "Hot Ones Tropical Amarillo", scoville: 69000  },
+      { name: "Smokin’ Ed Aprichot", scoville: 104000 },
+      { name: "Da Bomb Beyond Insanity", scoville: 135600 },
+      { name: "Torchbearer Sauces’ Sucker Punch", scoville: 690000 },
+      { name: "Hot Ones The Last Dab Xperience", scoville: 2693000 }
+    ]
   };
 
   export default allSeasonSauces;

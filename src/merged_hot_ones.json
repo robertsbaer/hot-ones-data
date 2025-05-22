@@ -4701,5 +4701,45 @@
       "Offset"
     ],
     "episode_type": "special"
+  },
+  {
+    "season": "26",
+    "episode": "SPECIAL 0x176",
+    "date": "May 13, 2025",
+    "guestDescription": "Lauren Cohan vs. Jeffrey Dean Morgan",
+    "guest": [
+      "Lauren Cohan",
+      "Jeffrey Dean Morgan"
+    ],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x177",
+    "date": "May 15, 2025",
+    "guestDescription": "Sean Evans Challenges Hot Ones Superfans | Season 27 Hot Sauce Reveal",
+    "guest": [
+      "Sean Evans"
+    ],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x178",
+    "date": "May 20, 2025",
+    "guestDescription": "Nick Kroll vs. Jason Mantzoukas | Hot Ones Versus",
+    "guest": [
+      "Nick Kroll",
+      "Jason Mantzoukas"
+    ],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode":"S27E01",
+    "date": "May 22, 2025",
+    "guest": "Aaron Paul",
+    "otherAppearances": [],
+    "episode_type": "regular"
   }
 ]
