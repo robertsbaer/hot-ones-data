@@ -16,9 +16,9 @@ This project is a spicy, comprehensive collection of **Hot Ones** episodes and s
 
 ---
 
-## Link to the live site: 
+## ✨ Check out the Live Site! ✨
 
-[Hot Ones Explorer](to the live site: [Hot Ones Explorer](https://robertsbaer.github.io/hot-ones-data/)
+[🌶️ Hot Ones Explorer Live!](https://robertsbaer.github.io/hot-ones-data/)
 
 ## 🚀 Features
 
