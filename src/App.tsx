@@ -612,7 +612,9 @@ function App() {
                           href={`https://www.youtube.com/results?search_query=hot+ones+${encodeURIComponent(
                             typeof guestDisplay === "string"
                               ? guestDisplay
-                              : Array.isArray(guestDisplay) ? guestDisplay.join(" ") : guestDisplay
+                              : Array.isArray(guestDisplay)
+                              ? guestDisplay.join(" ")
+                              : "" // Provide an empty string if guestDisplay is not a string or array
                           )}+${encodeURIComponent(
                             new Date(episode.date).getFullYear().toString()
                           )}`}
