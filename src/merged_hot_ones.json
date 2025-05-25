@@ -689,7 +689,7 @@
     "episode_type": "regular"
   },
   {
-    "season": "3",
+    "season": "4",
     "episode": "SPECIAL 0x13",
     "date": "July 13, 2017",
     "guestDescription": "Season Four Hot Sauce Lineup, REVEALED",
@@ -1121,7 +1121,7 @@
     "episode_type": "special"
   },
   {
-    "season": "5",
+    "season": "6",
     "episode": "SPECIAL 0x25",
     "date": "May 31, 2018",
     "guestDescription": "Season 6 Hot Sauce Lineup, REVEALED",
@@ -1256,7 +1256,7 @@
     "episode_type": "special"
   },
   {
-    "season": "6",
+    "season": "7",
     "episode": "SPECIAL 0x28",
     "date": "September 27, 2018",
     "guestDescription": "Sean Evans Reveals the Season 7 Hot Sauce Lineup",
@@ -1382,7 +1382,7 @@
     "episode_type": "special"
   },
   {
-    "season": "6",
+    "season": "7",
     "episode": "SPECIAL 0x31",
     "date": "January 10, 2019",
     "guestDescription": "Sean's Gordon Ramsay Nightmare",
@@ -1392,7 +1392,7 @@
     "episode_type": "special"
   },
   {
-    "season": "6",
+    "season": "8",
     "episode": "SPECIAL 0x32",
     "date": "January 17, 2019",
     "guestDescription": "Sean Evans Reveals the Season 8 Hot Sauce Lineup",
@@ -1410,7 +1410,7 @@
     "episode_type": "regular"
   },
   {
-    "season": "7",
+    "season": "8",
     "episode": "SPECIAL 0x33",
     "date": "January 29, 2019",
     "guestDescription": "LEGO Sean Evans Interviews Queen Watevra Wa'Nabi",
@@ -1542,7 +1542,7 @@
     "episode_type": "special"
   },
   {
-    "season": "8",
+    "season": "9",
     "episode": "SPECIAL 0x37",
     "date": "May 16, 2019",
     "guestDescription": "Sean Evans Reveals the Season 9 Hot Sauce Lineup",
@@ -1690,7 +1690,7 @@
     "episode_type": "special"
   },
   {
-    "season": "9",
+    "season": "10",
     "episode": "SPECIAL 0x42",
     "date": "September 12, 2019",
     "guestDescription": "Sean Evans Reveals the Season 10 Hot Sauce Lineup",
@@ -1838,7 +1838,7 @@
     "episode_type": "special"
   },
   {
-    "season": "10",
+    "season": "11",
     "episode": "SPECIAL 0x47",
     "date": "January 16, 2020",
     "guestDescription": "Sean Evans Reveals the Season 11 Hot Sauce Lineup",
@@ -2022,7 +2022,7 @@
     "episode_type": "special"
   },
   {
-    "season": "11",
+    "season": "12",
     "episode": "SPECIAL 0x58",
     "date": "June 18, 2020",
     "guestDescription": "Sean Evans Reveals the Season 12 Hot Sauce Lineup",
@@ -2164,7 +2164,7 @@
     "episode_type": "special"
   },
   {
-    "season": "12",
+    "season": "13",
     "episode": "SPECIAL 0x64",
     "date": "September 24, 2020",
     "guestDescription": "Sean Evans Reveals the Season 13 Hot Sauce Lineup",
@@ -2295,7 +2295,7 @@
     "episode_type": "special"
   },
   {
-    "season": "13",
+    "season": "14",
     "episode": "SPECIAL 0x69",
     "date": "January 21, 2021",
     "guestDescription": "Sean Evans Reveals the Season 14 Hot Sauce Lineup",
@@ -2432,7 +2432,7 @@
     "episode_type": "special"
   },
   {
-    "season": "14",
+    "season": "15",
     "episode": "SPECIAL 0x73",
     "date": "May 20, 2021",
     "guestDescription": "Sean Evans Reveals the Season 15 Hot Sauce Lineup\u2014Plus, a BIG Announcement!",
@@ -2580,7 +2580,7 @@
     "episode_type": "special"
   },
   {
-    "season": "15",
+    "season": "16",
     "episode": "SPECIAL 0x78",
     "date": "September 16, 2021",
     "guestDescription": "Sean Evans Reveals the Season 16 Hot Sauce Lineup",
@@ -2726,7 +2726,7 @@
     "episode_type": "special"
   },
   {
-    "season": "16",
+    "season": "17",
     "episode": "SPECIAL 0x83",
     "date": "January 13, 2022",
     "guestDescription": "Sean Evans Reveals the Season 17 Hot Sauce Lineup",
@@ -2875,7 +2875,7 @@
     "episode_type": "special"
   },
   {
-    "season": "17",
+    "season": "18",
     "episode": "SPECIAL 0x88",
     "date": "May 19, 2022",
     "guestDescription": "Sean Evans Reveals the Season 18 Hot Sauce Lineup",
@@ -3029,7 +3029,7 @@
     "episode_type": "special"
   },
   {
-    "season": "18",
+    "season": "19",
     "episode": "SPECIAL 0x93",
     "date": "September 22, 2022",
     "guestDescription": "Sean Evans Reveals the Season 19 Hot Sauce Lineup",
@@ -3185,7 +3185,7 @@
     "episode_type": "special"
   },
   {
-    "season": "19",
+    "season": "20",
     "episode": "SPECIAL 0x98",
     "date": "January 19, 2023",
     "guestDescription": "Sean Evans Reveals the Season 20 Hot Sauce Lineup",
@@ -3333,7 +3333,7 @@
     "episode_type": "special"
   },
   {
-    "season": "20",
+    "season": "21",
     "episode": "SPECIAL 0x103",
     "date": "May 18, 2023",
     "guestDescription": "Sean Evans Reveals the Season 21 Hot Sauce Lineup",
@@ -3479,7 +3479,7 @@
     "episode_type": "special"
   },
   {
-    "season": "21",
+    "season": "22",
     "episode": "SPECIAL 0x107",
     "date": "September 14, 2023",
     "guestDescription": "Sean Evans Reveals the Season 22 Hot Sauce Lineup",
@@ -3634,7 +3634,7 @@
     "episode_type": "special"
   },
   {
-    "season": "22",
+    "season": "23",
     "episode": "SPECIAL 0x112",
     "date": "January 18, 2024",
     "guestDescription": "Sean Evans Reveals the Season 23 Hot Sauce Lineup",
@@ -3859,7 +3859,7 @@
     "episode_type": "special"
   },
   {
-    "season": "23",
+    "season": "24",
     "episode": "SPECIAL 0x124",
     "date": "May 16, 2024",
     "guestDescription": "Sean Evans Reveals the Season 24 Hot Sauce Lineup",
@@ -4159,7 +4159,7 @@
     "episode_type": "special"
   },
   {
-    "season": "24",
+    "season": "25",
     "episode": "SPECIAL 0x143",
     "date": "September 12, 2024",
     "guestDescription": "Sean Evans Reveals the Season 25 Hot Sauce Lineup",
@@ -4453,7 +4453,7 @@
     "episode_type": "special"
   },
   {
-    "season": "25",
+    "season": "26",
     "episode": "SPECIAL 0x162",
     "date": "January 16, 2025",
     "guestDescription": "Sean Evans Reveals the Season 26 Hot Sauce Lineup",
