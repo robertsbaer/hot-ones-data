@@ -4746,8 +4746,15 @@
     "season": "27",
     "episode": "S27E02",
     "date": "May 29, 2025",
-    "guestDescription": "Ana de Armas Does Her Own Stunts While Eating Spicy Wings",
     "guest": "Ana de Armas",
+    "otherAppearances": [],
+    "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "S27E03",
+    "date": "June 5, 2025",
+    "guest": "Tim Dillon",
     "otherAppearances": [],
     "episode_type": "regular"
   }
