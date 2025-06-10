@@ -4757,5 +4757,17 @@
     "guest": "Tim Dillon",
     "otherAppearances": [],
     "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x179",
+    "date": "June 10, 2025",
+    "guestDescription": "Rob McElhenney vs. Charlie Day vs. Glenn Howerton | Hot Ones Versus",
+    "guest": [
+      "Rob McElhenney",
+      "Charlie Day",
+      "Glenn Howerton"
+    ],
+    "episode_type": "special"
   }
 ]
