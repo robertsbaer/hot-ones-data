@@ -4777,5 +4777,43 @@
     "guest": "Dakota Johnson",
     "otherAppearances": [],
     "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "S27E05",
+    "date": "June 19, 2025",
+    "guest": "Jennie Kim",
+    "otherAppearances": [],
+    "episode_type": "regular"
+  },
+    {
+    "season": "27",
+    "episode": "SPECIAL 0x180",
+    "date": "June 20, 2025",
+    "guestDescription": "Rob Gronkowski vs. Danny Amendola",
+    "guest": [
+      "Rob Gronkowski",
+      "Danny Amendola"
+    ],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode":"SPECIAL 0x181",
+    "date": "June 24, 2025",
+    "guestDescription": "Charlize Theron vs. Uma Thurman",
+    "guest": [
+      "Charlize Theron",
+      "Uma Thurman"
+    ],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "S27E06",
+    "date": "June 26, 2025",
+    "guest": "Owen Wilson",
+    "otherAppearances": [],
+    "episode_type": "regular"
   }
 ]
