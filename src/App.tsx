@@ -10,8 +10,11 @@ import {
 import { Flame, ChevronLeft, ChevronRight } from "lucide-react";
 import allSeasonSauces from "./hotsauceData";
 import mergedData from "./merged_hot_ones.json";
+import { Routes, Route } from 'react-router-dom';
+import LandingPage from './LandingPage';
 
-function App() {
+// Rename your current App component content to DataVisualization
+function DataVisualization() {
   const totalSeasons = Object.keys(allSeasonSauces).length;
   const [currentSeason, setCurrentSeason] = useState<number>(totalSeasons);
   const [highlightedEpisode, setHighlightedEpisode] = useState<string | null>(
@@ -736,6 +739,15 @@ function App() {
         </div>
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/data" element={<DataVisualization />} />
+    </Routes>
   );
 }
 
