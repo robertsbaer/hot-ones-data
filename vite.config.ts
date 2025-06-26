@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/hot-ones-data/',
+  base: '/', // Change this to root
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
