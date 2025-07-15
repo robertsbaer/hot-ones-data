@@ -4390,5 +4390,13 @@
     "guest": "Kai Cenat",
     "otherAppearances": [],
     "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x182",
+    "date": "July 14, 2025",
+    "guestDescription": "Maria Sharapova",
+    "guest": ["Maria Sharapova"],
+    "episode_type": "special"
   }
 ]
