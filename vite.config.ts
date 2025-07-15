@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePluginSitemap({
       hostname: 'https://hotones-data.com',
-      dynamicRoutes: ['/', '/data']
+      dynamicRoutes: ['/']
     })
   ],
   base: '/', // Change this to root
