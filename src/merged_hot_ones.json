@@ -4398,5 +4398,85 @@
     "guestDescription": "Maria Sharapova",
     "guest": ["Maria Sharapova"],
     "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x183",
+    "date": "July 15, 2025",
+    "guestDescription": "Ashanti vs. Nelly",
+    "guest": ["Ashanti", "Nelly"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "S27E09",
+    "date": "July 17, 2025",
+    "guest": "Nicole Scherzinger",
+    "otherAppearances": [],
+    "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x184",
+    "date": "July 22, 2025",
+    "guestDescription": "Alison Brie vs. Dave Franco",
+    "guest": ["Alison Brie", "Dave Franco"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "S27E10",
+    "date": "July 24, 2025",
+    "guest": "Sam Rockwell",
+    "otherAppearances": [],
+    "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x185",
+    "date": "July 28, 2025",
+    "guestDescription": "Pete Davidson",
+    "guest": ["Pete Davidson"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x186",
+    "date": "July 29, 2025",
+    "guestDescription": "Bowen Yang vs. Matt Rogers",
+    "guest": ["Bowen Yang", "Matt Rogers"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "S27E11",
+    "date": "July 31, 2025",
+    "guest": "Cody Rhodes",
+    "otherAppearances": [],
+    "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x187",
+    "date": "August 1, 2025",
+    "guestDescription": "Jake Shane vs. Coco Jones",
+    "guest": ["Jake Shane", "Coco Jones"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x188",
+    "date": "August 5, 2025",
+    "guestDescription": "Laufey vs. Clairo",
+    "guest": ["Laufey", "Clairo"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "S27E12",
+    "date": "August 7, 2025",
+    "guest": "Macaulay Culkin",
+    "otherAppearances": [],
+    "episode_type": "regular"
   }
 ]
