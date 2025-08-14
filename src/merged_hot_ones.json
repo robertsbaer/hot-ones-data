@@ -4478,5 +4478,13 @@
     "guest": "Macaulay Culkin",
     "otherAppearances": [],
     "episode_type": "regular"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x189",
+    "date": "August 12, 2025",
+    "guestDescription": "Joe Jonas vs. Nick Jonas vs. Kevin Jonas",
+    "guest": ["Joe Jonas", "Nick Jonas", "Kevin Jonas"],
+    "episode_type": "special"
   }
 ]
