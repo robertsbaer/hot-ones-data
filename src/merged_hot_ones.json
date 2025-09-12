@@ -4486,5 +4486,45 @@
     "guestDescription": "Joe Jonas vs. Nick Jonas vs. Kevin Jonas",
     "guest": ["Joe Jonas", "Nick Jonas", "Kevin Jonas"],
     "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x190",
+    "date": "August 22, 2025",
+    "guestDescription": "Patrick Schwarzenegger Proves the Naysayers Wrong While Eating Spicy Wings",
+    "guest": ["Patrick Schwarzenegger"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x191",
+    "date": "August 26, 2025",
+    "guestDescription": "Jenna Ortega vs. the Wednesday cast",
+    "guest": ["Jenna Ortega", "Wednesday cast"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x192",
+    "date": "August 28, 2025",
+    "guestDescription": "Sauce Gardner Earns his Nickname on the Hot Ones Football Special",
+    "guest": ["Sauce Gardner"],
+    "episode_type": "special"
+  },
+  {
+    "season": "27",
+    "episode": "SPECIAL 0x193",
+    "date": "September 2, 2025",
+    "guestDescription": "Damar Hamlin vs. Taylor Rapp",
+    "guest": ["Damar Hamlin", "Taylor Rapp"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x194",
+    "date": "September 11, 2025",
+    "guestDescription": "The Most Insane Last Dab Ever: Season 28 Sauce Reveal",
+    "guest": [],
+    "episode_type": "special"
   }
 ]
