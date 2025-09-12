@@ -429,7 +429,7 @@ const allSeasonSauces = {
     { name: "Hawaíían Hot T's (POG)2", scoville: 110000 },
     { name: "Da' Bomb Beyond Insanity", scoville: 135600 },
     { name: "Karma Sauce Funken Hot", scoville: 670000 },
-    { name: "Hot Ones The Last Dab Thermageddon", scoville: 1234567890 },
+    { name: "Hot Ones The Last Dab Thermageddon", scoville: 3000000 },
   ],
 };
 
