@@ -4526,5 +4526,13 @@
     "guestDescription": "The Most Insane Last Dab Ever: Season 28 Sauce Reveal",
     "guest": [],
     "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x195",
+    "date": "September 15, 2025",
+    "guestDescription": "Keke Palmer Heats Things Up While Eating Spicy Wings",
+    "guest": ["Keke Palmer"],
+    "episode_type": "special"
   }
 ]
