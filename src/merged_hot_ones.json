@@ -4529,10 +4529,10 @@
   },
   {
     "season": "28",
-    "episode": "SPECIAL 0x195",
-    "date": "September 15, 2025",
-    "guestDescription": "Keke Palmer Heats Things Up While Eating Spicy Wings",
-    "guest": ["Keke Palmer"],
-    "episode_type": "special"
+    "episode": "S28E01",
+    "date": "September 18, 2025",
+    "guest": "Jason Bateman",
+    "otherAppearances": [],
+    "episode_type": "regular"
   }
 ]
