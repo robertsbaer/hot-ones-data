@@ -4529,10 +4529,42 @@
   },
   {
     "season": "28",
+    "episode": "SPECIAL 0x195",
+    "date": "September 15, 2025",
+    "guestDescription": "Keke Palmer Heats Things Up While Eating Spicy Wings",
+    "guest": ["Keke Palmer"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
     "episode": "S28E01",
     "date": "September 18, 2025",
-    "guest": "Jason Bateman",
-    "otherAppearances": [],
+    "guestDescription": "Jason Bateman Threatens to Turn Into Teen Wolf While Eating Spicy Wings",
+    "guest": ["Jason Bateman"],
+    "episode_type": "regular"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x196",
+    "date": "September 23, 2025",
+    "guestDescription": "Paige DeSorbo vs. Hannah Berner",
+    "guest": ["Paige DeSorbo", "Hannah Berner"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "S28E02",
+    "date": "September 25, 2025",
+    "guestDescription": "Kate McKinnon Gets Weird While Eating Spicy Wings",
+    "guest": ["Kate McKinnon"],
+    "episode_type": "regular"
+  },
+  {
+    "season": "28",
+    "episode": "S28E03",
+    "date": "October 2, 2025",
+    "guestDescription": "Channing Tatum Punches Back While Eating Spicy Wings",
+    "guest": ["Channing Tatum"],
     "episode_type": "regular"
   }
 ]
