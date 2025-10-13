@@ -4566,5 +4566,29 @@
     "guestDescription": "Channing Tatum Punches Back While Eating Spicy Wings",
     "guest": ["Channing Tatum"],
     "episode_type": "regular"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x197",
+    "date": "October 3, 2025",
+    "guestDescription": "Chris O'Donnell and Jessica Capshaw vs. Kenneth Choi and Oliver Stark",
+    "guest": ["Chris O'Donnell", "Jessica Capshaw", "Kenneth Choi", "Oliver Stark"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x198",
+    "date": "October 7, 2025",
+    "guestDescription": "Adam Richman vs. Andrew Zimmern",
+    "guest": ["Adam Richman", "Andrew Zimmern"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "S28E04",
+    "date": "October 9, 2025",
+    "guestDescription": "Luka Dončić Gets Flagrant Fouled By Spicy Wings",
+    "guest": ["Luka Dončić"],
+    "episode_type": "regular"
   }
 ]
