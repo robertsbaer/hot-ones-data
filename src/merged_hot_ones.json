@@ -4590,5 +4590,13 @@
     "guestDescription": "Luka Dončić Gets Flagrant Fouled By Spicy Wings",
     "guest": ["Luka Dončić"],
     "episode_type": "regular"
+  },
+  {
+    "season": "28",
+    "episode": "S28E05",
+    "date": "October 16, 2025",
+    "guestDescription": "Jeremy Allen White Embraces Chaos While Eating Spicy Wings",
+    "guest": ["Jeremy Allen White"],
+    "episode_type": "regular"
   }
 ]
