@@ -597,7 +597,9 @@ function DataVisualization() {
                       key={episode.episode}
                       id={`episode-${episode.episode}`}
                       className={`p-4 rounded-lg ${
-                        episode.episode_type === "special"
+                        episode.isAnniversary
+                          ? "bg-gradient-to-br from-yellow-600/80 via-orange-600/80 to-red-600/80 border-2 border-yellow-400"
+                          : episode.episode_type === "special"
                           ? "bg-purple-900/70"
                           : "bg-gray-700"
                       } ${
@@ -698,11 +700,15 @@ function DataVisualization() {
                         </div>
                       )}
 
-                      {episode.episode_type === "special" && (
+                      {episode.isAnniversary ? (
+                        <div className="mt-1 text-xs font-bold text-yellow-200 flex items-center gap-1">
+                          🎉 10 Year Anniversary Special 🎉
+                        </div>
+                      ) : episode.episode_type === "special" ? (
                         <div className="mt-1 text-xs text-purple-300">
                           Special Episode
                         </div>
-                      )}
+                      ) : null}
                     </div>
                   );
                 })}

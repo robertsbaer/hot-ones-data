@@ -4603,9 +4603,10 @@
     "season": "28",
     "episode": "SPECIAL 0x199",
     "date": "October 20, 2025",
-    "guestDescription": "Adam Devine Shocks a Live Audience While Eating Spicy Wings",
+    "guestDescription": "Adam Devine Shocks a Live Audience While Eating Spicy Wings - 10 Year Anniversary Special",
     "guest": ["Adam Devine"],
-    "episode_type": "special"
+    "episode_type": "special",
+    "isAnniversary": true
   },
   {
     "season": "28",
