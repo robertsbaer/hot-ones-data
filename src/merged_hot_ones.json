@@ -4598,5 +4598,21 @@
     "guestDescription": "Jeremy Allen White Embraces Chaos While Eating Spicy Wings",
     "guest": ["Jeremy Allen White"],
     "episode_type": "regular"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x199",
+    "date": "October 20, 2025",
+    "guestDescription": "Adam Devine Shocks a Live Audience While Eating Spicy Wings",
+    "guest": ["Adam Devine"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x200",
+    "date": "October 21, 2025",
+    "guestDescription": "Rhett vs. Link",
+    "guest": ["Rhett", "Link"],
+    "episode_type": "special"
   }
 ]
