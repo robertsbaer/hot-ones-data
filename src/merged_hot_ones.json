@@ -4572,7 +4572,12 @@
     "episode": "SPECIAL 0x197",
     "date": "October 3, 2025",
     "guestDescription": "Chris O'Donnell and Jessica Capshaw vs. Kenneth Choi and Oliver Stark",
-    "guest": ["Chris O'Donnell", "Jessica Capshaw", "Kenneth Choi", "Oliver Stark"],
+    "guest": [
+      "Chris O'Donnell",
+      "Jessica Capshaw",
+      "Kenneth Choi",
+      "Oliver Stark"
+    ],
     "episode_type": "special"
   },
   {
@@ -4615,5 +4620,13 @@
     "guestDescription": "Rhett vs. Link",
     "guest": ["Rhett", "Link"],
     "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "S28E06",
+    "date": "October 23, 2025",
+    "guestDescription": "Adam Brody Surfs Through the Pain While Eating Spicy Wings",
+    "guest": ["Adam Brody"],
+    "episode_type": "regular"
   }
 ]
