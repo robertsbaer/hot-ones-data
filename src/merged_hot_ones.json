@@ -4636,5 +4636,13 @@
     "guestDescription": "Rose Byrne Feels Crazy While Eating Spicy Wings",
     "guest": ["Rose Byrne"],
     "episode_type": "regular"
+  },
+  {
+    "season": "28",
+    "episode": "S28E08",
+    "date": "November 6, 2025",
+    "guestDescription": "Woody Harrelson Goes Through Hell While Eating Spicy Wings",
+    "guest": ["Woody Harrelson"],
+    "episode_type": "regular"
   }
 ]
