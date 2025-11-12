@@ -4649,8 +4649,21 @@
     "season": "28",
     "episode": "SPECIAL 0x202",
     "date": "November 11, 2025",
-    "guestDescription": "Yeonjun, Soobin, Beomgyu, Taehyun, and Hueningkai make up the global smash K-Pop group TXT (투모로우바이투게더). But today, these bandmates will have two choices: Tell the truth, or suffer the wrath of the Last Dab. Whoever eats the most wings, loses! From Taehyun's magic abilities to the group’s differing views on mint chocolate chip ice cream, they will either need to be honest or go head-to-head with the Wings of Death. Will Hueningkai reveal his BLACKPINK bias? Who does Yeonjun think is the worst dressed in the group? Tune in to an all-new episode of Hot Ones Versus, and see who takes home the coveted chicken wing trophy!",
+    "guestDescription": "Yeonjun, Soobin, Beomgyu, Taehyun, and Hueningkai. TXT (투모로우바이투게더) | Hot Ones Versus!",
     "guest": ["Yeonjun", "Soobin", "Beomgyu", "Taehyun", "Hueningkai"],
     "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "WING PONG 0x001",
+    "date": "November 12, 2025",
+    "guestDescription": "The Daily Show Plays Hot Ones Wing Pong",
+    "guest": [
+      "Jordan Klepper",
+      "Josh Johnson",
+      "Michael Kosta",
+      "Grace Kuhlenschmidt"
+    ],
+    "episode_type": "wing_pong"
   }
 ]

@@ -555,13 +555,15 @@ function DataVisualization() {
               <h2 className="text-2xl font-semibold mb-4">{`Season ${currentSeason} Episodes`}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {currentGuests.map((episode) => {
-                  // Get the guest name for display and search
-                  const guestDisplay =
+                  // Get the guest name for display and search (always a string)
+                  const guestDisplay: string =
                     episode.episode_type === "special"
-                      ? "guestDescription" in episode
-                        ? episode.guestDescription
-                        : "Special Episode"
-                      : episode.guest;
+                      ? ("guestDescription" in episode && episode.guestDescription
+                          ? episode.guestDescription
+                          : "Special Episode")
+                      : Array.isArray(episode.guest)
+                      ? episode.guest.join(", ")
+                      : String(episode.guest);
 
                   // Get the guest name(s) for finding other appearances
                   const guestNames =
@@ -599,6 +601,8 @@ function DataVisualization() {
                       className={`p-4 rounded-lg ${
                         episode.isAnniversary
                           ? "bg-gradient-to-br from-yellow-600/80 via-orange-600/80 to-red-600/80 border-2 border-yellow-400"
+                          : episode.episode_type === "wing_pong"
+                          ? "bg-gradient-to-br from-cyan-800/80 via-teal-800/80 to-emerald-800/80 border-2 border-teal-400"
                           : episode.episode_type === "special"
                           ? "bg-purple-900/70"
                           : "bg-gray-700"
@@ -611,15 +615,16 @@ function DataVisualization() {
                       <div className="text-sm text-gray-400">
                         {episode.episode}
                       </div>
+                      {episode.episode_type === "wing_pong" && (
+                        <div className="text-sm text-teal-200 mb-1">
+                          {("guestDescription" in episode && episode.guestDescription) ? episode.guestDescription : "Wing Pong"}
+                        </div>
+                      )}
                       <div className="flex items-center justify-between">
                         <div className="font-semibold">{guestDisplay}</div>
                         <a
                           href={`https://www.youtube.com/results?search_query=hot+ones+${encodeURIComponent(
-                            typeof guestDisplay === "string"
-                              ? guestDisplay
-                              : Array.isArray(guestDisplay)
-                              ? guestDisplay.join(" ")
-                              : "" // Provide an empty string if guestDisplay is not a string or array
+                            guestDisplay
                           )}+${encodeURIComponent(
                             new Date(episode.date).getFullYear().toString()
                           )}`}
@@ -703,6 +708,10 @@ function DataVisualization() {
                       {episode.isAnniversary ? (
                         <div className="mt-1 text-xs font-bold text-yellow-200 flex items-center gap-1">
                           🎉 10 Year Anniversary Special 🎉
+                        </div>
+                      ) : episode.episode_type === "wing_pong" ? (
+                        <div className="mt-1 text-xs text-teal-200 flex items-center gap-1">
+                          🏓 Wing Pong
                         </div>
                       ) : episode.episode_type === "special" ? (
                         <div className="mt-1 text-xs text-purple-300">
