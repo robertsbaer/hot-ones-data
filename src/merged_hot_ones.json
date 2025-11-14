@@ -4665,5 +4665,13 @@
       "Grace Kuhlenschmidt"
     ],
     "episode_type": "wing_pong"
+  },
+  {
+    "season": "28",
+    "episode": "S28E09",
+    "date": "November 13, 2025",
+    "guestDescription": "Glen Powell Needs a Wingman While Eating Spicy Wings",
+    "guest": ["Glen Powell"],
+    "episode_type": "regular"
   }
 ]
