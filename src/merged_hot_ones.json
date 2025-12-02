@@ -4684,6 +4684,14 @@
   },
   {
     "season": "28",
+    "episode": "SPECIAL 0x203",
+    "date": "November 25, 2025",
+    "guestDescription": "Jinkx Monsoon vs. BenDeLaCreme",
+    "guest": ["Jinkx Monsoon", "BenDeLaCreme"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
     "episode": "S28E11",
     "date": "November 27, 2025",
     "guestDescription": "A’ja Wilson Insists She’s Good While Eating Spicy Wings",
