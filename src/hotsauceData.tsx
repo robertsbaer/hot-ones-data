@@ -431,6 +431,21 @@ const allSeasonSauces = {
     { name: "Karma Sauce Funken Hot", scoville: 670000 },
     { name: "Hot Ones The Last Dab Thermageddon", scoville: 3000000 },
   ],
+  29: [
+    { name: "Piko Peppers Garlic Delight", scoville: 1900 },
+    { name: "Hot Ones Pickled Garlic Sriracha", scoville: 18000 },
+    { name: "Quentin's Sauce White Hot Mustard Sauce", scoville: 25000 },
+    { name: "Smokin' Dragon Smoked Habanero & Peach", scoville: 38000 },
+    { name: "Hot Ones Tropical Amarillo", scoville: 69000 },
+    { name: "Sauce Leopard HomeGrown Hell", scoville: 81000 },
+    { name: "Funky's Hot Sauce Factory Nirvana", scoville: 120000 },
+    { name: "Da' Bomb Beyond Insanity", scoville: 135600 },
+    {
+      name: "Butterfly Bakery of Vermont Smoked Serrano Squash Reaper X",
+      scoville: 720000,
+    },
+    { name: "Hot Ones The Last Dab: Thermageddon", scoville: 2683000 },
+  ],
 };
 
 export default allSeasonSauces;
