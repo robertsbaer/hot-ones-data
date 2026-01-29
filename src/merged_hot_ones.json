@@ -4631,6 +4631,14 @@
   },
   {
     "season": "28",
+    "episode": "SPECIAL 0x201",
+    "date": "October 28, 2025",
+    "guestDescription": "Good Morning America’s Michael Strahan vs. Robin Roberts vs. George Stephanopoulos",
+    "guest": ["Michael Strahan", "Robin Roberts", "George Stephanopoulos"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
     "episode": "S28E07",
     "date": "October 30, 2025",
     "guestDescription": "Rose Byrne Feels Crazy While Eating Spicy Wings",
@@ -4699,10 +4707,87 @@
     "episode_type": "regular"
   },
   {
-    "season": "29",
+    "season": "28",
+    "episode": "SPECIAL 0x204",
+    "date": "December 2, 2025",
+    "guestDescription": "Stranger Things",
+    "guest": [
+      "Noah Schnapp",
+      "Finn Wolfhard",
+      "Caleb McLaughlin",
+      "Gaten Matarazzo"
+    ],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "S28E12",
+    "date": "December 4, 2025",
+    "guestDescription": "Matthew McConaughey Is Alright, Alright, Alright While Eating Spicy Wings",
+    "guest": ["Matthew McConaughey"],
+    "episode_type": "regular"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x205",
+    "date": "December 9, 2025",
+    "guestDescription": "Avatar's Zoe Saldaña vs. Sam Worthington",
+    "guest": ["Zoe Saldaña", "Sam Worthington"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
     "episode": "SPECIAL 0x204",
     "date": "January 15, 2026",
     "guestDescription": "Sean Evans Reveals the Season 29 Hot Sauce Lineup | Hot Ones",
+    "guest": [],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x206",
+    "date": "December 18, 2025",
+    "guestDescription": "Kristen Bell Gets Festive on the Hot Ones Holiday Extravaganza",
+    "guest": ["Kristen Bell"],
+    "episode_type": "special"
+  },
+  {
+    "season": "28",
+    "episode": "SPECIAL 0x207",
+    "date": "December 23, 2025",
+    "guestDescription": "Insane Clown Posse vs. GWAR",
+    "guest": ["Insane Clown Posse", "GWAR"],
+    "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "SPECIAL 0x208",
+    "date": "January 6, 2026",
+    "guestDescription": "Valtteri Bottas vs. Sergio Pérez",
+    "guest": ["Valtteri Bottas", "Sergio Pérez"],
+    "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "SPECIAL 0x209",
+    "date": "January 13, 2026",
+    "guestDescription": "Dax Shepard vs. Monica Padman",
+    "guest": ["Dax Shepard", "Monica Padman"],
+    "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "SPECIAL 0x210",
+    "date": "January 15, 2026",
+    "guestDescription": "Sean Evans Reveals the Season 29 Hot Sauce Lineup",
+    "guest": [],
+    "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "SPECIAL 0x211",
+    "date": "January 20, 2026",
+    "guestDescription": "The Best Da Bomb Reactions of 2025",
     "guest": [],
     "episode_type": "special"
   },
@@ -4712,6 +4797,14 @@
     "date": "January 22, 2026",
     "guestDescription": "Jason Segel Won't Back Down While Eating Spicy Wings",
     "guest": ["Jason Segel"],
+    "episode_type": "regular"
+  },
+  {
+    "season": "29",
+    "episode": "S29E02",
+    "date": "January 29, 2026",
+    "guestDescription": "Will Arnett Wants to Fire His Publicist While Eating Spicy Wings",
+    "guest": ["Will Arnett"],
     "episode_type": "regular"
   }
 ]
