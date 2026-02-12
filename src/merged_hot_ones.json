@@ -4814,5 +4814,21 @@
     "guestDescription": "MrBeast Faces His Scariest Challenge Yet While Eating Spicy Wings",
     "guest": ["MrBeast"],
     "episode_type": "regular"
+  },
+  {
+    "season": "29",
+    "episode": "SPECIAL 0x213",
+    "date": "February 10, 2026",
+    "guestDescription": "Ciara vs. Russell Wilson",
+    "guest": ["Ciara", "Russell Wilson"],
+    "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "S29E04",
+    "date": "February 12, 2026",
+    "guestDescription": "Madison Beer Lives Out Her Dream While Eating Spicy Wings",
+    "guest": ["Madison Beer"],
+    "episode_type": "regular"
   }
 ]
