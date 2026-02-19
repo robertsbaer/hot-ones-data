@@ -4822,5 +4822,13 @@
     "guestDescription": "Madison Beer Lives Out Her Dream While Eating Spicy Wings",
     "guest": ["Madison Beer"],
     "episode_type": "regular"
+  },
+  {
+    "season": "29",
+    "episode": "S29E05",
+    "date": "February 19, 2026",
+    "guestDescription": "Daniel Radcliffe Worries About the Aftermath While Eating Spicy Wings",
+    "guest": ["Daniel Radcliffe"],
+    "episode_type": "regular"
   }
 ]
