@@ -4830,5 +4830,21 @@
     "guestDescription": "Daniel Radcliffe Worries About the Aftermath While Eating Spicy Wings",
     "guest": ["Daniel Radcliffe"],
     "episode_type": "regular"
+  },
+  {
+    "season": "29",
+    "episode": "SPECIAL 0x214",
+    "date": "February 24, 2026",
+    "guestDescription": "KPop Demon Hunters",
+    "guest": [],
+    "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "S29E06",
+    "date": "February 26, 2026",
+    "guestDescription": "Teyana Taylor Battles One Hot Sauce After Another While Eating Spicy Wings",
+    "guest": ["Teyana Taylor"],
+    "episode_type": "regular"
   }
 ]
