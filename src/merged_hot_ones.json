@@ -4729,6 +4729,19 @@
   },
   {
     "season": "28",
+    "episode": "WING PONG 0x002",
+    "date": "December 8, 2025",
+    "guestDescription": "The SNL Cast Plays Hot Ones Wing Pong",
+    "guest": [
+      "Chloe Fineman",
+      "Sarah Sherman",
+      "Mikey Day",
+      "James Austin Johnson"
+    ],
+    "episode_type": "wing_pong"
+  },
+  {
+    "season": "28",
     "episode": "SPECIAL 0x205",
     "date": "December 9, 2025",
     "guestDescription": "Avatar's Zoe Saldaña vs. Sam Worthington",
