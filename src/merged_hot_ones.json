@@ -4875,5 +4875,13 @@
     "guestDescription": "Charlie Cox vs. Vincent D'Onofrio | Hot Ones Versus",
     "guest": ["Charlie Cox", "Vincent D'Onofrio"],
     "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "S29E08",
+    "date": "March 12, 2026",
+    "guestDescription": "Colman Domingo Escapes the Jaws of Darkness While Eating Spicy Wings",
+    "guest": ["Colman Domingo"],
+    "episode_type": "regular"
   }
 ]
