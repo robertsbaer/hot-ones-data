@@ -4891,5 +4891,13 @@
     "guestDescription": "Jon Bernthal vs. Ebon Moss-Bachrach | Hot Ones Versus",
     "guest": ["Jon Bernthal", "Ebon Moss-Bachrach"],
     "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "S29E09",
+    "date": "March 19, 2026",
+    "guestDescription": "Luke Combs Feels a Heat Hurricane While Eating Spicy Wings",
+    "guest": ["Luke Combs"],
+    "episode_type": "regular"
   }
 ]
