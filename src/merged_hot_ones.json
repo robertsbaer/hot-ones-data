@@ -4899,5 +4899,13 @@
     "guestDescription": "Luke Combs Feels a Heat Hurricane While Eating Spicy Wings",
     "guest": ["Luke Combs"],
     "episode_type": "regular"
+  },
+  {
+    "season": "29",
+    "episode": "S29E10",
+    "date": "March 26, 2026",
+    "guestDescription": "Hilary Duff Tests Her Luck While Eating Spicy Wings",
+    "guest": ["Hilary Duff"],
+    "episode_type": "regular"
   }
 ]
