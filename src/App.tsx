@@ -10,15 +10,15 @@ import {
 import { Flame, ChevronLeft, ChevronRight } from "lucide-react";
 import allSeasonSauces from "./hotsauceData";
 import mergedData from "./merged_hot_ones.json";
-import { Routes, Route } from 'react-router-dom';
-import LandingPage from './LandingPage';
+import { Routes, Route } from "react-router-dom";
+import LandingPage from "./LandingPage";
 
 // Rename your current App component content to DataVisualization
 function DataVisualization() {
   const totalSeasons = Object.keys(allSeasonSauces).length;
   const [currentSeason, setCurrentSeason] = useState<number>(totalSeasons);
   const [highlightedEpisode, setHighlightedEpisode] = useState<string | null>(
-    null
+    null,
   );
 
   const getHeatColor = (scoville: number) => {
@@ -33,121 +33,149 @@ function DataVisualization() {
   // Function to find all appearances of a guest
   const findAllAppearances = (guestName: string, currentEpisodeId: string) => {
     if (!guestName) return [];
-    
+
     // If the guest is ONLY Sean Evans, don't return any navigation buttons
     if (guestName.toLowerCase() === "sean evans") {
       return [];
     }
-    
+
     const normalizedGuestName = guestName.toLowerCase().trim();
-    
+
     // Special case for short names to prevent false matches
     const shortNames = ["cl", "t-pain", "j balvin"];
-    
+
     // For short names, use exact matching only
     if (shortNames.includes(normalizedGuestName)) {
       return mergedData
-        .filter(ep => {
-          if (typeof ep.guest === 'string') {
+        .filter((ep) => {
+          if (typeof ep.guest === "string") {
             return ep.guest.toLowerCase() === normalizedGuestName;
           } else if (Array.isArray(ep.guest)) {
-            return ep.guest.some(g => g.toLowerCase() === normalizedGuestName);
+            return ep.guest.some(
+              (g) => g.toLowerCase() === normalizedGuestName,
+            );
           }
           return false;
         })
-        .map(ep => ({
+        .map((ep) => ({
           id: ep.episode,
           season: ep.season,
-          title: ep.episode_type === "special" ? 
-                 (ep.guestDescription || (Array.isArray(ep.guest) ? ep.guest.join(', ') : ep.guest)) :
-                 (typeof ep.guest === 'string' ? ep.guest : ep.guest.join(', ')),
+          title:
+            ep.episode_type === "special"
+              ? ep.guestDescription ||
+                (Array.isArray(ep.guest) ? ep.guest.join(", ") : ep.guest)
+              : typeof ep.guest === "string"
+                ? ep.guest
+                : ep.guest.join(", "),
           date: new Date(ep.date),
-          isSpecial: ep.episode_type === "special"
+          isSpecial: ep.episode_type === "special",
         }))
-        .filter(ep => ep.id !== currentEpisodeId);
+        .filter((ep) => ep.id !== currentEpisodeId);
     }
-    
+
     // Special case for "Daniel Radcliffe" to prevent matching with "CL"
     if (normalizedGuestName.includes("daniel radcliffe")) {
       return mergedData
-        .filter(ep => {
-          if (typeof ep.guest === 'string') {
+        .filter((ep) => {
+          if (typeof ep.guest === "string") {
             return ep.guest.toLowerCase().includes("daniel radcliffe");
           } else if (Array.isArray(ep.guest)) {
-            return ep.guest.some(g => g.toLowerCase().includes("daniel radcliffe"));
+            return ep.guest.some((g) =>
+              g.toLowerCase().includes("daniel radcliffe"),
+            );
           }
           return false;
         })
-        .map(ep => ({
+        .map((ep) => ({
           id: ep.episode,
           season: ep.season,
-          title: ep.episode_type === "special" ? 
-                 (ep.guestDescription || (Array.isArray(ep.guest) ? ep.guest.join(', ') : ep.guest)) :
-                 (typeof ep.guest === 'string' ? ep.guest : ep.guest.join(', ')),
+          title:
+            ep.episode_type === "special"
+              ? ep.guestDescription ||
+                (Array.isArray(ep.guest) ? ep.guest.join(", ") : ep.guest)
+              : typeof ep.guest === "string"
+                ? ep.guest
+                : ep.guest.join(", "),
           date: new Date(ep.date),
-          isSpecial: ep.episode_type === "special"
+          isSpecial: ep.episode_type === "special",
         }))
-        .filter(ep => ep.id !== currentEpisodeId);
+        .filter((ep) => ep.id !== currentEpisodeId);
     }
-    
+
     // Find in all episodes
     const appearances = mergedData
-      .filter(ep => {
+      .filter((ep) => {
         // Skip any episodes with "CL" when looking for other guests
-        if ((typeof ep.guest === 'string' && ep.guest.toLowerCase() === "cl") ||
-            (Array.isArray(ep.guest) && ep.guest.some(g => g.toLowerCase() === "cl"))) {
+        if (
+          (typeof ep.guest === "string" && ep.guest.toLowerCase() === "cl") ||
+          (Array.isArray(ep.guest) &&
+            ep.guest.some((g) => g.toLowerCase() === "cl"))
+        ) {
           return false;
         }
-        
-        if (typeof ep.guest === 'string') {
+
+        if (typeof ep.guest === "string") {
           // Use word boundary matching for short names (3 chars or less)
           if (normalizedGuestName.length <= 3) {
             // Split the guest name by spaces and check if any word exactly matches
             const guestWords = ep.guest.toLowerCase().split(/\s+/);
             return guestWords.includes(normalizedGuestName);
           }
-          
+
           // Handle cases like "Joji and Rich Brian"
-          if (ep.guest.toLowerCase().includes(' and ')) {
-            const guests = ep.guest.split(' and ').map(g => g.trim().toLowerCase());
-            return guests.some(g => 
-              g === normalizedGuestName || 
-              // For longer names, we can still use partial matching
-              (normalizedGuestName.length > 3 && 
-               (g.includes(normalizedGuestName) || normalizedGuestName.includes(g)))
+          if (ep.guest.toLowerCase().includes(" and ")) {
+            const guests = ep.guest
+              .split(" and ")
+              .map((g) => g.trim().toLowerCase());
+            return guests.some(
+              (g) =>
+                g === normalizedGuestName ||
+                // For longer names, we can still use partial matching
+                (normalizedGuestName.length > 3 &&
+                  (g.includes(normalizedGuestName) ||
+                    normalizedGuestName.includes(g))),
             );
           }
-          
+
           // For longer names, use the existing partial matching
-          return normalizedGuestName.length > 3 && 
-                 (ep.guest.toLowerCase().includes(normalizedGuestName) || 
-                  normalizedGuestName.includes(ep.guest.toLowerCase()));
+          return (
+            normalizedGuestName.length > 3 &&
+            (ep.guest.toLowerCase().includes(normalizedGuestName) ||
+              normalizedGuestName.includes(ep.guest.toLowerCase()))
+          );
         } else if (Array.isArray(ep.guest)) {
           // For short names, require exact matches
           if (normalizedGuestName.length <= 3) {
-            return ep.guest.some(g => g.toLowerCase().trim() === normalizedGuestName);
+            return ep.guest.some(
+              (g) => g.toLowerCase().trim() === normalizedGuestName,
+            );
           }
-          
+
           // For longer names, use partial matching
-          return ep.guest.some(g => 
-            g.toLowerCase().includes(normalizedGuestName) || 
-            normalizedGuestName.includes(g.toLowerCase())
+          return ep.guest.some(
+            (g) =>
+              g.toLowerCase().includes(normalizedGuestName) ||
+              normalizedGuestName.includes(g.toLowerCase()),
           );
         }
         return false;
       })
-      .map(ep => ({
+      .map((ep) => ({
         id: ep.episode,
         season: ep.season,
-        title: ep.episode_type === "special" ? 
-               (ep.guestDescription || (Array.isArray(ep.guest) ? ep.guest.join(', ') : ep.guest)) :
-               (typeof ep.guest === 'string' ? ep.guest : ep.guest.join(', ')),
+        title:
+          ep.episode_type === "special"
+            ? ep.guestDescription ||
+              (Array.isArray(ep.guest) ? ep.guest.join(", ") : ep.guest)
+            : typeof ep.guest === "string"
+              ? ep.guest
+              : ep.guest.join(", "),
         date: new Date(ep.date),
-        isSpecial: ep.episode_type === "special"
+        isSpecial: ep.episode_type === "special",
       }));
-    
+
     // Filter out the current episode
-    return appearances.filter(ep => ep.id !== currentEpisodeId);
+    return appearances.filter((ep) => ep.id !== currentEpisodeId);
   };
 
   const sauces =
@@ -204,185 +232,6 @@ function DataVisualization() {
 
   // Remove the redirectToSeason function since we're not using it anymore
 
-  const redirectToSeason = (season: string, guestName: string) => {
-    if (season === "Special") {
-      // Handle navigation to special episodes
-      // Find all special episodes with this guest
-      const guestSpecials = mergedData.filter(
-(ep: { guest?: string | string[] }) =>
-          ep.guest &&
-          Array.isArray(ep.guest) &&
-          ep.guest.some((name) => {
-            const normalizedName = name.toLowerCase().trim();
-            const normalizedGuestName = guestName.toLowerCase().trim();
-            return (
-              normalizedName.includes(normalizedGuestName) ||
-              normalizedGuestName.includes(normalizedName)
-            );
-          })
-      );
-
-      if (guestSpecials.length > 0) {
-        // Sort by date to get the most relevant special (usually the first one)
-        guestSpecials.sort(
-          (a: { date: string }, b: { date: string }) => new Date(a.date).getTime() - new Date(b.date).getTime()
-        );
-
-        // Get the special episode
-        const specialEpisode = guestSpecials[0];
-
-        // Find which regular season this special corresponds to
-        const specialDate = new Date(specialEpisode.date);
-        const correspondingSeason = mergedData.find(ep => {
-          const epDate = new Date(ep.date);
-          return epDate <= specialDate && ep.episode_type !== "special";
-        })?.season || totalSeasons.toString();
-
-        // Make sure we have a valid numeric season
-        if (correspondingSeason && !isNaN(Number(correspondingSeason))) {
-          setCurrentSeason(Number(correspondingSeason));
-          setHighlightedEpisode(specialEpisode.episode);
-        } else {
-          // If we can't determine the season, find the closest season
-          const allSeasons = Array.from(
-            new Set(mergedData.map((g) => Number(g.season)))
-          ).filter((s) => !isNaN(s));
-          allSeasons.sort((a, b) => a - b);
-
-          // Find the closest season to the special's date
-          const specialYear = specialDate.getFullYear();
-          const seasonYears = allSeasons.map((s) => {
-            const seasonEpisodes = mergedData.filter(
-              (g) => g.season === s.toString()
-            );
-            if (seasonEpisodes.length === 0) return { season: s, year: 2023 }; // Default to recent year if no data
-
-            const avgDate = new Date(
-              seasonEpisodes.reduce(
-                (sum, ep) => sum + new Date(ep.date).getTime(),
-                0
-              ) / seasonEpisodes.length
-            );
-            return { season: s, year: avgDate.getFullYear() };
-          });
-
-          // Find season with closest year
-          seasonYears.sort(
-            (a, b) =>
-              Math.abs(a.year - specialYear) - Math.abs(b.year - specialYear)
-          );
-
-          if (seasonYears.length > 0) {
-            setCurrentSeason(seasonYears[0].season);
-            setHighlightedEpisode(specialEpisode.episode);
-          } else {
-            // Last resort - use the latest season
-            setCurrentSeason(totalSeasons);
-            setHighlightedEpisode(specialEpisode.episode);
-          }
-        }
-      } else {
-        alert("Could not find the special episode.");
-      }
-    } else {
-      // Handle numeric seasons
-      const numericSeason = Number(season);
-      if (!isNaN(numericSeason)) {
-        setCurrentSeason(numericSeason);
-
-        // Get regular episodes for this season
-        const regularEpisodes = mergedData.filter((ep) => ep.season === season && ep.episode_type !== "special");
-
-        // Get specials that correspond to this season by date
-        const specialsForSeason = mergedData.filter(ep => ep.episode_type === "special").filter(
-          (ep) => ep.season === season
-        );
-
-        // Combine all episodes for this season
-        const episodesForTargetSeason = [
-          ...regularEpisodes,
-          ...specialsForSeason,
-        ];
-
-        // First try to find an exact match
-        let candidate = episodesForTargetSeason.find((ep) => {
-          // For regular episodes, check the guest field
-          if (ep.season !== "Special") {
-            return (
-              typeof ep.guest === "string" &&
-              ep.guest.toLowerCase().includes(guestName.toLowerCase())
-            );
-          }
-          // For specials, check the guest array
-          else if (ep.guest && Array.isArray(ep.guest)) {
-            return ep.guest.some(
-              (name) =>
-                name.toLowerCase().includes(guestName.toLowerCase()) ||
-                guestName.toLowerCase().includes(name.toLowerCase())
-            );
-          }
-          // Fallback to the guestDescription field for specials without guest array
-          else {
-            return (
-              "guestDescription" in ep &&
-              ep.guestDescription
-                ?.toLowerCase()
-                .includes(guestName.toLowerCase())
-            );
-          }
-        });
-
-        // If no match found, try a more flexible approach
-        if (!candidate) {
-          candidate = episodesForTargetSeason.find((ep) => {
-            if (ep.season !== "Special") {
-              const guestParts = (
-                typeof ep.guest === "string" ? ep.guest : ep.guest.join(" ")
-              )
-                .toLowerCase()
-                .split(/,|\sand\s|\svs\.\s|\s&\s/i);
-              return guestParts.some(
-                (part) =>
-                  part.trim().includes(guestName.toLowerCase()) ||
-                  guestName.toLowerCase().includes(part.trim())
-              );
-            } else if (ep.guest && Array.isArray(ep.guest)) {
-              // For special episodes, check each guest name more thoroughly
-              return ep.guest.some((guestItem) => {
-                const guestItemParts = guestItem
-                  .toLowerCase()
-                  .split(/,|\sand\s|\svs\.\s|\s&\s/i);
-                return guestItemParts.some(
-                  (part) =>
-                    part.trim().includes(guestName.toLowerCase()) ||
-                    guestName.toLowerCase().includes(part.trim())
-                );
-              });
-            } else {
-              return (
-                "guestDescription" in ep &&
-                (ep as { guestDescription?: string }).guestDescription
-                  ?.toLowerCase()
-                  .includes(guestName.toLowerCase())
-              );
-            }
-          });
-        }
-
-        if (candidate) {
-          setHighlightedEpisode(candidate.episode);
-        } else {
-          setHighlightedEpisode(null);
-        }
-      } else {
-        console.error(`Invalid season format: ${season}`);
-        // Default to the latest season if we get an invalid season
-        setCurrentSeason(totalSeasons);
-        setHighlightedEpisode(null);
-      }
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <div className="p-8">
@@ -423,10 +272,15 @@ function DataVisualization() {
                     <span className="w-8">{index + 1}</span>
                     <div className="flex-1">
                       <div className="text-sm mb-1">{sauce.name}</div>
+                      {currentSeason === 29 && index === 2 && (
+                        <div className="text-gray-400 text-xs mb-1 italic">
+                          *Special: Esther's Gochujang Hot Sauce used for BTS
+                        </div>
+                      )}
                       <div className="h-6 rounded-full bg-gray-700 overflow-hidden">
                         <div
                           className={`h-full ${getHeatColor(
-                            sauce.scoville
+                            sauce.scoville,
                           )} transition-all duration-500`}
                           style={{
                             width: `${Math.min(100, sauce.scoville / 30000)}%`,
@@ -456,9 +310,9 @@ function DataVisualization() {
                         minScoville: Math.min(...sauces.map((s) => s.scoville)),
                         avgScoville: Math.round(
                           sauces.reduce((acc, s) => acc + s.scoville, 0) /
-                            sauces.length
+                            sauces.length,
                         ),
-                      })
+                      }),
                     )}
                     margin={{ top: 10, right: 10, left: 10, bottom: 20 }}
                   >
@@ -486,8 +340,8 @@ function DataVisualization() {
                         value >= 1000000
                           ? `${(value / 1000000).toFixed(1)}M`
                           : value >= 1000
-                          ? `${(value / 1000).toFixed(0)}K`
-                          : value
+                            ? `${(value / 1000).toFixed(0)}K`
+                            : value
                       }
                       width={60}
                     />
@@ -558,12 +412,13 @@ function DataVisualization() {
                   // Get the guest name for display and search (always a string)
                   const guestDisplay: string =
                     episode.episode_type === "special"
-                      ? ("guestDescription" in episode && episode.guestDescription
-                          ? episode.guestDescription
-                          : "Special Episode")
+                      ? "guestDescription" in episode &&
+                        episode.guestDescription
+                        ? episode.guestDescription
+                        : "Special Episode"
                       : Array.isArray(episode.guest)
-                      ? episode.guest.join(", ")
-                      : String(episode.guest);
+                        ? episode.guest.join(", ")
+                        : String(episode.guest);
 
                   // Get the guest name(s) for finding other appearances
                   const guestNames =
@@ -572,23 +427,25 @@ function DataVisualization() {
                         ? episode.guest
                         : []
                       : Array.isArray(episode.guest)
-                      ? episode.guest
-                      : typeof episode.guest === "string" &&
-                        episode.guest.includes(" and ")
-                      ? episode.guest.split(" and ").map((name) => name.trim())
-                      : [episode.guest];
+                        ? episode.guest
+                        : typeof episode.guest === "string" &&
+                            episode.guest.includes(" and ")
+                          ? episode.guest
+                              .split(" and ")
+                              .map((name) => name.trim())
+                          : [episode.guest];
 
                   // Find all appearances for each guest
                   const allGuestAppearances = guestNames
                     .map((name) => {
                       const appearances = findAllAppearances(
                         name,
-                        episode.episode
+                        episode.episode,
                       );
                       return {
                         name,
                         appearances: appearances.sort(
-                          (a, b) => a.date.getTime() - b.date.getTime()
+                          (a, b) => a.date.getTime() - b.date.getTime(),
                         ),
                       };
                     })
@@ -602,10 +459,10 @@ function DataVisualization() {
                         episode.isAnniversary
                           ? "bg-gradient-to-br from-yellow-600/80 via-orange-600/80 to-red-600/80 border-2 border-yellow-400"
                           : episode.episode_type === "wing_pong"
-                          ? "bg-gradient-to-br from-cyan-800/80 via-teal-800/80 to-emerald-800/80 border-2 border-teal-400"
-                          : episode.episode_type === "special"
-                          ? "bg-purple-900/70"
-                          : "bg-gray-700"
+                            ? "bg-gradient-to-br from-cyan-800/80 via-teal-800/80 to-emerald-800/80 border-2 border-teal-400"
+                            : episode.episode_type === "special"
+                              ? "bg-purple-900/70"
+                              : "bg-gray-700"
                       } ${
                         episode.episode === highlightedEpisode
                           ? "ring-4 ring-yellow-400"
@@ -617,16 +474,19 @@ function DataVisualization() {
                       </div>
                       {episode.episode_type === "wing_pong" && (
                         <div className="text-sm text-teal-200 mb-1">
-                          {("guestDescription" in episode && episode.guestDescription) ? episode.guestDescription : "Wing Pong"}
+                          {"guestDescription" in episode &&
+                          episode.guestDescription
+                            ? episode.guestDescription
+                            : "Wing Pong"}
                         </div>
                       )}
                       <div className="flex items-center justify-between">
                         <div className="font-semibold">{guestDisplay}</div>
                         <a
                           href={`https://www.youtube.com/results?search_query=hot+ones+${encodeURIComponent(
-                            guestDisplay
+                            guestDisplay,
                           )}+${encodeURIComponent(
-                            new Date(episode.date).getFullYear().toString()
+                            new Date(episode.date).getFullYear().toString(),
                           )}`}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -697,7 +557,7 @@ function DataVisualization() {
                                           }` // Add "SP" prefix to the ID part
                                         : `S${appearance.season}`}
                                     </button>
-                                  )
+                                  ),
                                 )}
                               </div>
                             </div>
