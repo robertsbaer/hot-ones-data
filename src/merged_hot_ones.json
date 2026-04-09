@@ -4923,5 +4923,13 @@
     "guestDescription": "Frankie Muniz vs. Bryan Cranston | Hot Ones Versus",
     "guest": ["Frankie Muniz", "Bryan Cranston"],
     "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "S29E12",
+    "date": "April 9, 2026",
+    "guestDescription": "BTS Breaks Another Record While Eating Spicy Wings",
+    "guest": ["j-hope", "Jin", "SUGA", "RM", "V", "Jimin", "Jung Kook"],
+    "episode_type": "regular"
   }
 ]
