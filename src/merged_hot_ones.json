@@ -4997,5 +4997,13 @@
     "guestDescription": "Shaun White vs. Tony Hawk | Hot Ones Versus",
     "guest": ["Shaun White", "Tony Hawk"],
     "episode_type": "special"
+  },
+  {
+    "season": "29",
+    "episode": "WING PONG 0x213",
+    "date": "May 6, 2026",
+    "guestDescription": "The 'Running Point' Cast Plays Hot Ones Wing Pong",
+    "guest": ["Kate Hudson", "Brenda Song", "Drew Tarver", "Scott MacArthur"],
+    "episode_type": "wing_pong"
   }
 ]
