@@ -5005,5 +5005,21 @@
     "guestDescription": "The 'Running Point' Cast Plays Hot Ones Wing Pong",
     "guest": ["Kate Hudson", "Brenda Song", "Drew Tarver", "Scott MacArthur"],
     "episode_type": "wing_pong"
+  },
+  {
+    "season": "29",
+    "episode": "SPECIAL 0x219",
+    "date": "May 12, 2026",
+    "guestDescription": "Aaliyah Edwards vs. Paige Bueckers | Hot Ones Versus",
+    "guest": ["Aaliyah Edwards", "Paige Bueckers"],
+    "episode_type": "special"
+  },
+  {
+    "season": "30",
+    "episode": "S30E01",
+    "date": "May 18, 2026",
+    "guestDescription": "Tim Howard Makes the Save While Eating Spicy Wings",
+    "guest": ["Tim Howard"],
+    "episode_type": "regular"
   }
 ]

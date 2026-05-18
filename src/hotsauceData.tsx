@@ -446,6 +446,18 @@ const allSeasonSauces = {
     },
     { name: "Hot Ones The Last Dab: Thermageddon", scoville: 2683000 },
   ],
+  30: [
+    { name: "Down To Ferment That's What Shishito Said", scoville: 2100 },
+    { name: "Good Heat Hot Bergine", scoville: 7900 },
+    { name: "Hot Ones Pickled Garlic Sriracha", scoville: 18000 },
+    { name: "Black Eyed Susan Spice Co. Chickpotle", scoville: 32000 },
+    { name: "Hot n Saucy Pikliz n Scorpion", scoville: 54000 },
+    { name: "Hot Ones Tropical Amarillo", scoville: 69000 },
+    { name: "Sinai Gourmet's Eight Dragon", scoville: 102000 },
+    { name: "Da' Bomb Beyond Insanity", scoville: 135600 },
+    { name: "High Desert Sauce company Salsa Vibes", scoville: 820000 },
+    { name: "Hot Ones The Last Dab Thermageddon", scoville: 2683000 },
+  ],
 };
 
 export default allSeasonSauces;
