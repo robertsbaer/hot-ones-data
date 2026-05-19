@@ -5027,7 +5027,14 @@
     "episode": "SPECIAL 0x220",
     "date": "May 19, 2026",
     "guestDescription": "Foo Fighters | Hot Ones Versus",
-    "guest": ["Foo Fighters"],
+    "guest": [
+      "Dave Grohl",
+      "Nate Mendel",
+      "Pat Smear",
+      "Chris Shiflett",
+      "Rami Jaffee",
+      "Ilan Rubin"
+    ],
     "episode_type": "special"
   }
 ]
