@@ -5052,5 +5052,13 @@
     "guestDescription": "Esteban Ocon vs. Ollie Bearman | Hot Ones Versus",
     "guest": ["Esteban Ocon", "Ollie Bearman"],
     "episode_type": "special"
+  },
+  {
+    "season": "30",
+    "episode": "S30E03",
+    "date": "May 28, 2026",
+    "guestDescription": "Emily Blunt Is Up to the Challenge While Eating Spicy Wings | Hot Ones",
+    "guest": ["Emily Blunt"],
+    "episode_type": "regular"
   }
 ]
