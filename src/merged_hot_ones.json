@@ -5068,5 +5068,13 @@
     "guestDescription": "J Balvin Rides A Heat Rollercoaster While Eating Spicy Wings | Hot Ones",
     "guest": ["J Balvin"],
     "episode_type": "regular"
+  },
+  {
+    "season": "30",
+    "episode": "SPECIAL 0x222",
+    "date": "June 1, 2026",
+    "guestDescription": "Chase Infiniti vs. Rowan Blanchard | Hot Ones Versus",
+    "guest": ["Chase Infiniti", "Rowan Blanchard"],
+    "episode_type": "special"
   }
 ]
