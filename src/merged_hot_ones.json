@@ -5076,5 +5076,13 @@
     "guestDescription": "Chase Infiniti vs. Rowan Blanchard | Hot Ones Versus",
     "guest": ["Chase Infiniti", "Rowan Blanchard"],
     "episode_type": "special"
+  },
+  {
+    "season": "30",
+    "episode": "S30E04",
+    "date": "June 4, 2026",
+    "guestDescription": "Becky G Conquers the Heat While Eating Spicy Wings | Hot Ones",
+    "guest": ["Becky G"],
+    "episode_type": "regular"
   }
 ]
