@@ -5087,10 +5087,18 @@
   },
   {
     "season": "30",
-    "episode": "S30E04",
+    "episode": "SPECIAL 0x223",
     "date": "June 9, 2026",
     "guestDescription": "Camila Mendes vs. Nicholas Galitzine | Hot Ones Versus",
     "guest": ["Camila Mendes", "Nicholas Galitzine"],
     "episode_type": "special"
+  },
+  {
+    "season": "30",
+    "episode": "S30E05",
+    "date": "June 11, 2026",
+    "guestDescription": "PinkPantheress Needs Ice While Eating Spicy Wings | Hot Ones",
+    "guest": ["PinkPantheress"],
+    "episode_type": "regular"
   }
 ]
