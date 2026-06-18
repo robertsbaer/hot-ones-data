@@ -5108,5 +5108,13 @@
     "guestDescription": "Guy Fieri vs. Son Ryder Fieri | Hot Ones Versus",
     "guest": ["Guy Fieri", "Ryder Fieri"],
     "episode_type": "special"
+  },
+  {
+    "season": "30",
+    "episode": "S30E06",
+    "date": "June 18, 2026",
+    "guestDescription": "Jesse Eisenberg Defies Doctor's Orders While Eating Spicy Wings | Hot Ones",
+    "guest": ["Jesse Eisenberg"],
+    "episode_type": "regular"
   }
 ]
